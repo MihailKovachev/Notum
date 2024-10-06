@@ -1,0 +1,24 @@
+.callout[data-callout="definition"] {
+    --callout-color: 220, 49, 71;
+    --callout-icon: lucide-scroll-text;
+}
+
+.callout[data-callout="person"] {
+    --callout-color: 255, 128, 0;
+    --callout-icon: lucide-user;
+}
+
+.callout[data-callout="study"] {
+    --callout-color: 0, 128, 255;
+    --callout-icon: lucide-clipboard;
+}
+
+.callout[data-callout="theory"] {
+    --callout-color: 255, 213, 0;
+    --callout-icon: lucide-book-type;
+}
+
+.callout[data-callout="phenomenon"] {
+    --callout-color: 0, 255, 128;
+    --callout-icon: lucide-cog;
+}

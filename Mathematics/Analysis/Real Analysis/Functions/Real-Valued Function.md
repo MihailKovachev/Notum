@@ -1,0 +1,2 @@
+>[!DEFINITION] Definition: Real-Valued Function
+>A **real-valued function** on a [set](../../../Set%20Theory/Set.md) $X$ is a [function](Function.md) $f: X \to \mathbb{R}$ from $X$ to the set of [real numbers](../../../Algebra/Fields/The%20Field%20of%20the%20Real%20Numbers.md).

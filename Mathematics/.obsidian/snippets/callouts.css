@@ -1,0 +1,28 @@
+.callout[data-callout="definition"] {
+    --callout-color: 220, 49, 71;
+    --callout-icon: lucide-scroll-text;
+}
+
+.callout[data-callout="notation"] {
+    --callout-icon: lucide-pen-tool;
+}
+
+.callout[data-callout="axiom"] {
+    --callout-color: 252, 3, 202;
+    --callout-icon: lucide-pill;
+}
+
+.callout[data-callout="theorem"] {
+    --callout-color: 0, 191, 188;
+    --callout-icon: lucide-type;
+}
+
+.callout[data-callout="proof"] {
+    --callout-color: 15, 212, 93;
+    --callout-icon: lucide-check-check;
+}
+
+.callout[data-callout="algorithm"] {
+    --callout-color: 8, 109, 221;
+    --callout-icon: lucide-route;
+}

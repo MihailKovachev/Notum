@@ -1,0 +1,2 @@
+>[!DEFINITION] Definition: Integration
+>**Integration** is the process of finding the [indefinite integral](Indefinite%20Integral.md), i.e. all [antiderivatives](Antiderivative.md), of a given [real function](../../Functions/Real%20Function.md).

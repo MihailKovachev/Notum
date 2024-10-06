@@ -1,0 +1,9 @@
+{
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "livePreview": false,
+  "defaultViewMode": "preview",
+  "strictLineBreaks": true,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "./Resources/"
+}
