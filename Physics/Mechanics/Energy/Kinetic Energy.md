@@ -10,22 +10,22 @@
 
 >[!THEOREM] Theorem: Non-Relativistic Kinetic Energy of a Point Mass
 >
->The [kinetic energy](Kinetic%20Energy.md) of a [point mass](../../Point%20Mass.md) $m$ moving with [speed](../../Kinematics/Speed.md) $v$ is given by the formula
+>The [kinetic energy](Kinetic%20Energy.md) of a [point mass](../../Physical%20Systems/Point%20Masses/Point%20Mass.md) $m$ moving with [speed](../../Kinematics/Translation/Speed.md) $v$ is given by the formula
 >
 >$$E_{\text{kin}} = \frac{1}{2}mv^2$$
 >
 >provided that $v$ is a lot smaller than the [speed of light](../Speed%20of%20Light.md).
 >
 >>[!PROOF]-
->>At time $t_1$, the [resultant force](../Force.md) $\boldsymbol{F}$ begins to accelerates the [point mass](../../Point%20Mass.md) from 0 m/s and at time $t_2$ the [speed](../../Kinematics/Speed.md) reaches $v$ m/s, i.e. $||\boldsymbol{v}(t_1)|| = 0$ and $||\boldsymbol{v}(t_2)||=v$. During this time $\boldsymbol{F}$ does [work](Work.md)
+>>At time $t_1$, the [resultant force](../Force.md) $\boldsymbol{F}$ begins to accelerates the [point mass](../../Physical%20Systems/Point%20Masses/Point%20Mass.md) from 0 m/s and at time $t_2$ the [speed](../../Kinematics/Translation/Speed.md) reaches $v$ m/s, i.e. $||\boldsymbol{v}(t_1)|| = 0$ and $||\boldsymbol{v}(t_2)||=v$. During this time $\boldsymbol{F}$ does [work](Work.md)
 >>
 >>$$W = \int_{t_1}^{t_2} \boldsymbol{F}\cdot \boldsymbol{v}\mathop{\mathrm{d}t}$$
 >>
->>According to [Newton's second laws of motion](../Newton's%20Laws%20of%20Motion.md), $\boldsymbol{F}=m\boldsymbol{a}$.
+>>According to [Newton's second laws of motion](../Newton's%20Laws%20of%20Translational%20Motion.md), $\boldsymbol{F}=m\boldsymbol{a}$.
 >>
 >>$$W = \int_{t_1}^{t_2} m\boldsymbol{a}\cdot \boldsymbol{v}\mathop{\mathrm{d}t} = m \int_{t_1}^{t_2} \boldsymbol{a}\cdot \boldsymbol{v}\mathop{\mathrm{d}t}$$
 >>
->>And since [acceleration](../../Kinematics/Acceleration.md) is the temporal derivative of [velocity](../../Kinematics/Velocity.md), we have 
+>>And since [acceleration](../../Kinematics/Translation/Acceleration.md) is the temporal derivative of [velocity](../../Kinematics/Translation/Velocity.md), we have 
 >>
 >>$$\frac{\mathrm{d}\boldsymbol{v}}{\mathrm{d}t} = \boldsymbol{a}$$
 >>

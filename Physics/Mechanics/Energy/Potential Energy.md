@@ -4,7 +4,7 @@
 >
 >$$\boldsymbol{F} = -\nabla U$$
 >
->There are infinitely many such functions but we are free to choose where $U = 0$ and thus fix a particular one, so long as we are consistent with our choice. Once $U$ is fixed, we call $U(\boldsymbol{r})$ the **potential energy** of a [point mass](../../Point%20Mass.md) at the [position](../../Kinematics/Position.md) $\boldsymbol{r}$ due to $\boldsymbol{F}$.
+>There are infinitely many such functions but we are free to choose where $U = 0$ and thus fix a particular one, so long as we are consistent with our choice. Once $U$ is fixed, we call $U(\boldsymbol{r})$ the **potential energy** of a [point mass](../../Physical%20Systems/Point%20Masses/Point%20Mass.md) at the [position](../../Kinematics/Translation/Position.md) $\boldsymbol{r}$ due to $\boldsymbol{F}$.
 >
 >>[!NOTATION]
 >>

@@ -6,11 +6,11 @@
 >
 >>[!PROOF]-
 >>
->>We consider an interaction between any two objects $A$ and $B$ in the physical system. According to [Newton's third law of motion](../Newton's%20Laws%20of%20Motion.md#^thirdlaw), this interaction manifests as two [forces](../Force.md) $\boldsymbol{F}_{A \text{ on } B}$ and $\boldsymbol{F}_{B \text{ on } A}$ with
+>>We consider an interaction between any two objects $A$ and $B$ in the physical system. According to [Newton's third law of motion](../Newton's%20Laws%20of%20Translational%20Motion.md#^thirdlaw), this interaction manifests as two [forces](../Force.md) $\boldsymbol{F}_{A \text{ on } B}$ and $\boldsymbol{F}_{B \text{ on } A}$ with
 >>
 >>$$\boldsymbol{F}_{A \text{ on } B} = - \boldsymbol{F}_{B \text{ on } A}$$
 >>
->>According to [Newton's second law of motion](../Newton's%20Laws%20of%20Motion.md#^secondlaw) the [force](../Force.md) $\boldsymbol{F}_{A \text{ on } B}$ is equal to the change $\frac{\mathrm{d}\boldsymbol{p}_B}{\mathrm{d}t}$ in the [momentum](Momentum.md) of $B$ and the [force](../Force.md) $\boldsymbol{F}_{B \text{ on } A}$ is equal to the change $\frac{\mathrm{d}\boldsymbol{p}_A}{\mathrm{d}t}$ in the [momentum](Momentum.md) of $A$. This means that
+>>According to [Newton's second law of motion](../Newton's%20Laws%20of%20Translational%20Motion.md#^secondlaw) the [force](../Force.md) $\boldsymbol{F}_{A \text{ on } B}$ is equal to the change $\frac{\mathrm{d}\boldsymbol{p}_B}{\mathrm{d}t}$ in the [momentum](Momentum.md) of $B$ and the [force](../Force.md) $\boldsymbol{F}_{B \text{ on } A}$ is equal to the change $\frac{\mathrm{d}\boldsymbol{p}_A}{\mathrm{d}t}$ in the [momentum](Momentum.md) of $A$. This means that
 >>
 >>$$\frac{\mathrm{d}\boldsymbol{p}_A}{\mathrm{d}t} = -\frac{\mathrm{d}\boldsymbol{p}_B}{\mathrm{d}t}$$
 >>

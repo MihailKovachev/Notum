@@ -6,7 +6,7 @@
 >>$$\left[\mathrm{N} = \frac{\mathrm{kg}\cdot\mathrm{m}}{\mathrm{s}^2}\right]$$
 
 >[!LAW] Empirical Law: Superposition Principle for Forces
->All forces $\boldsymbol{F}_1,\cdots,\boldsymbol{F}_n$ exerted on a [point mass](../Point%20Mass.md) at the same time have the same effect as if only a single **resultant** or **net force** $\boldsymbol{F}$ were at play, which is the vector sum of all other forces:
+>All forces $\boldsymbol{F}_1,\cdots,\boldsymbol{F}_n$ exerted on a [point mass](../Physical%20Systems/Point%20Masses/Point%20Mass.md) at the same time have the same effect as if only a single **resultant** or **net force** $\boldsymbol{F}$ were at play, which is the vector sum of all other forces:
 >
 >$$\boldsymbol{F}=\sum_{i} \boldsymbol{F}_i$$
 >

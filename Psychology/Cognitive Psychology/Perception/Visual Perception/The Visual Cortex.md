@@ -1,0 +1,1 @@
+The **visual cortex** is the area of the brain which is responsible for visual perception.
