@@ -8,6 +8,6 @@
 >
 >>[!DEFINITION] Definition: Row Rank
 >>
->>The **row rank** of $A$ is the [dimension](../../Bases/Dimension.md) of its [row space](Row%20Space.md).
+>>The **row rank** of $A$ is the [dimension](../../Vector%20Spaces/Bases/Dimension.md) of its [row space](Row%20Space.md).
 >>
 >

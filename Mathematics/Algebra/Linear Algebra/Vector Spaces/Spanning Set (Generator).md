@@ -1,6 +1,6 @@
 >[!DEFINITION] Definition: Spanning Set (Generator)
 >
->Let $(V,K,+,\cdot)$ be a [vector space](Vector%20Spaces/Vector%20Space.md).
+>Let $(V,F,+,\cdot)$ be a [vector space](Vector%20Spaces/Vector%20Space.md).
 >
 >A [set](../../../Set%20Theory/Set.md) of [vectors](Vector%20Spaces/Vector%20Space.md) $S = \{\mathbf{v}_1, \mathbf{v}_2, \cdots \}$ is called a **spanning set** or a **generator** of $V$ if their [span](Vector%20Spaces/Span.md) is equal to $V$, i.e. every vector in $V$ can be expressed as a linear combination of vectors from $\{\mathbf{v}_1, \mathbf{v}_2, \cdots \}$:
 >

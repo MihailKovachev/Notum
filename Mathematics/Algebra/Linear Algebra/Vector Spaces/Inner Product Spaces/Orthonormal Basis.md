@@ -7,7 +7,7 @@
 
 >[!THEOREM] Theorem: Vector Representation through an Orthonormal Basis
 >
->If $B = \{\mathbf{b}_1, \cdots, \mathbf{b}_n\}$ is an [orthonormal basis](Orthonormal%20Basis.md) of an [inner product space](Inner%20Product%20Space.md) $(V,F,+,\cdot)$, then the $i$-th coefficient $c_i$ in the [basis representation](../../Bases/Basis.md) $\mathbf{v} = \sum_{i=1}^n c_i \mathbf{b}_i$ of any $\mathbf{v} \in V$ is the [inner product](Inner%20Product%20Space.md) of $\mathbf{v}$ with the $i$-th basis vector $\mathbf{b}_i$:
+>If $B = \{\mathbf{b}_1, \cdots, \mathbf{b}_n\}$ is an [orthonormal basis](Orthonormal%20Basis.md) of an [inner product space](Inner%20Product%20Space.md) $(V,F,+,\cdot)$, then the $i$-th coefficient $c_i$ in the [basis representation](../Bases/Basis.md) $\mathbf{v} = \sum_{i=1}^n c_i \mathbf{b}_i$ of any $\mathbf{v} \in V$ is the [inner product](Inner%20Product%20Space.md) of $\mathbf{v}$ with the $i$-th basis vector $\mathbf{b}_i$:
 >
 >$$c_i = \langle \mathbf{v}, \mathbf{b}_i \rangle$$
 >

@@ -1,6 +1,6 @@
 >[!ALGORITHM] Algorithm: Gram-Schmidt Orthonormalisation Process
 >
->Every [Basis](../../Bases/Basis.md) $B = \{\mathbf{b}_1,\cdots,\mathbf{b}_n\}$ of a [finite-dimensional](../../Bases/Dimension.md) [inner product space](Inner%20Product%20Space.md) $(V,F,+,\cdot)$ can be turned into an [orthonormal basis](Orthonormal%20Basis.md) $B' = \{\mathbf{b}_1',\cdots,\mathbf{b}_n'\}$ through the following process:
+>Every [Basis](../Bases/Basis.md) $B = \{\mathbf{b}_1,\cdots,\mathbf{b}_n\}$ of a [finite-dimensional](../Bases/Dimension.md) [inner product space](Inner%20Product%20Space.md) $(V,F,+,\cdot)$ can be turned into an [orthonormal basis](Orthonormal%20Basis.md) $B' = \{\mathbf{b}_1',\cdots,\mathbf{b}_n'\}$ through the following process:
 >
 >1. The first vector $\mathbf{b}_1'$ in $B'$ is simply the [normalised](Canonical%20Norm.md) version of $\mathbf{b}_1$.
 >

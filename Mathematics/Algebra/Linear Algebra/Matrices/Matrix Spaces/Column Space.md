@@ -8,6 +8,6 @@
 >
 >>[!DEFINITION] Definition: Column Rank
 >>
->>The **column rank** of $A$ is the [dimension](../../Bases/Dimension.md) of its [column space](Column%20Space.md).
+>>The **column rank** of $A$ is the [dimension](../../Vector%20Spaces/Bases/Dimension.md) of its [column space](Column%20Space.md).
 >>
 >

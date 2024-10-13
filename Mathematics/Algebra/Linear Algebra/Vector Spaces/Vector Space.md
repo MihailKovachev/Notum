@@ -1,14 +1,14 @@
 >[!DEFINITION] Definition: Vector Space
 >
->A **vector space** $(V,K,+,\cdot)$ consists of a non-[empty](../../../Set%20Theory/The%20Empty%20Set.md) [set](../../../Set%20Theory/Set.md) $V$ and a [field](../../Fields/Field.md) $F$ which are equipped with two [operations](../../../Set%20Theory/Functions/Function.md) - a **vector addition** $+: V \times V \to V$ and a **scalar multiplication** $\cdot: V \times K \to V$ - which have the following properties:
+>A **vector space** $(V,F,+,\cdot)$ consists of a non-[empty](../../../Set%20Theory/The%20Empty%20Set.md) [set](../../../Set%20Theory/Set.md) $V$ and a [field](../../Fields/Field.md) $F$ which are equipped with two [operations](../../../Set%20Theory/Functions/Function.md) - a **vector addition** $+: V \times V \to V$ and a **scalar multiplication** $\cdot: V \times F \to V$ - which have the following properties:
 >
 >- Commutativity: $\mathbf{u} + \mathbf{v} = \mathbf{v} + \mathbf{u} \qquad \forall \mathbf{u},\mathbf{v} \in V$
 >- Associativity I: $\mathbf{u} + (\mathbf{v} + \mathbf{w}) = (\mathbf{u} + \mathbf{v}) + \mathbf{w} \qquad \forall \mathbf{u},\mathbf{v}, \mathbf{w} \in V$
->- Associativity II: $(\lambda\mu)\mathbf{u} = \lambda(\mu\mathbf{u}) \qquad \forall \lambda,\mu\in K, \forall \mathbf{u} \in V$
->- Distributivity I: $\lambda (\mathbf{u} + \mathbf{v}) = \lambda\mathbf{u}+\lambda\mathbf{v} \qquad \forall \mathbf{u},\mathbf{v} \in V, \forall \lambda \in K$
->- Distributivity II: $(\lambda + \mu)\mathbf{v} = \lambda\mathbf{v}+\mu\mathbf{v} \qquad \forall \lambda,\mu \in K, \forall \mathbf{v}\in V$
+>- Associativity II: $(\lambda\mu)\mathbf{u} = \lambda(\mu\mathbf{u}) \qquad \forall \lambda,\mu\in F, \forall \mathbf{u} \in V$
+>- Distributivity I: $\lambda (\mathbf{u} + \mathbf{v}) = \lambda\mathbf{u}+\lambda\mathbf{v} \qquad \forall \mathbf{u},\mathbf{v} \in V, \forall \lambda \in F$
+>- Distributivity II: $(\lambda + \mu)\mathbf{v} = \lambda\mathbf{v}+\mu\mathbf{v} \qquad \forall \lambda,\mu \in F, \forall \mathbf{v}\in V$
 >- Existence of a zero vector: There is an element $\mathbf{0} \in V$ such that $\mathbf{v} + \mathbf{0} = \mathbf{v} \qquad \forall \mathbf{v} \in V$
->- Existence of the identity element: There is an element $1 \in K$ such that $1\cdot \mathbf{u} = \mathbf{u} \qquad \forall \mathbf{u}\in V$
+>- Existence of the identity element: There is an element $1 \in F$ such that $1\cdot \mathbf{u} = \mathbf{u} \qquad \forall \mathbf{u}\in V$
 >- Existence of vector inverses: For every $\mathbf{v} \in V$ there is a $-\mathbf{v} \in V$ such that $\mathbf{v} + (-\mathbf{v}) = \mathbf{0}$
 >
 >>[!DEFINITION] Definition: Vector
@@ -31,7 +31,7 @@
 >
 >>[!PROOF]-
 >>
->>Suppose that the vector space $(V,K,+,\cdots)$ had two zero vectors $\mathbf{0}, \mathbf{0}' \in V$, i.e. $\mathbf{v}+ \mathbf{0} = \mathbf{v}$ $\mathbf{v}+ \mathbf{0}'= \mathbf{v}$ for all $\mathbf{v} \in V$.
+>>Suppose that the vector space $(V,F,+,\cdots)$ had two zero vectors $\mathbf{0}, \mathbf{0}' \in V$, i.e. $\mathbf{v}+ \mathbf{0} = \mathbf{v}$ $\mathbf{v}+ \mathbf{0}'= \mathbf{v}$ for all $\mathbf{v} \in V$.
 >>
 >>It follows then that
 >>
@@ -43,7 +43,7 @@
 
 >[!THEOREM] Theorem: Uniqueness of Vector Inverses
 >
->For every vector $\mathbf{v} \in V$ in a [vector space](Vector%20Space.md) $(V,K,+,\cdot)$ there is exactly one inverse vector $-\mathbf{v} \in V$ such that
+>For every vector $\mathbf{v} \in V$ in a [vector space](Vector%20Space.md) $(V,F,+,\cdot)$ there is exactly one inverse vector $-\mathbf{v} \in V$ such that
 >
 >$$\mathbf{v} + (-\mathbf{v}) = \mathbf{0}$$
 >

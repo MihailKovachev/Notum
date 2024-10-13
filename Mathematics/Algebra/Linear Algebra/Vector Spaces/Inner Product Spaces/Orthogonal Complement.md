@@ -13,7 +13,7 @@
 >
 >>[!THEOREM] Theorem
 >>
->>The [orthogonal complement](Orthogonal%20Complement.md) $(U^\perp, F,+,\cdot)$ is also a [subspace](../Subspace.md) of $(V,F,+,\cdot)$ and its [dimension](../../Bases/Dimension.md) is
+>>The [orthogonal complement](Orthogonal%20Complement.md) $(U^\perp, F,+,\cdot)$ is also a [subspace](../Subspace.md) of $(V,F,+,\cdot)$ and its [dimension](../Bases/Dimension.md) is
 >>
 >>$$\dim(U^\perp) = \dim(V) - \dim(U)$$
 >>

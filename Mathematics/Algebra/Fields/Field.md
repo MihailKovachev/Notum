@@ -16,6 +16,17 @@
 >3. Distributive Law:
 >$$\alpha\cdot(\beta + \gamma) = \alpha\cdot \beta + \alpha \cdot \gamma \qquad \forall \alpha,\beta,\gamma \in F$$
 
+>[!THEOREM] Theorem: Multiplication with the Additive Identity
+>Multiplying any element $\alpha$ of a [field](Field.md) $(F,+,\cdot)$ with its additive identity $0$ results in the additive identity.
+>
+>$$\alpha \cdot 0 = 0 \qquad \forall \alpha \in F$$
+>
+>>[!PROOF]-
+>>$$\alpha \cdot 0 = \alpha \cdot (0 + 0) = \alpha\cdot 0 + \alpha\cdot 0$$
+>>$$\alpha \cdot 0 = \alpha \cdot 0 + \alpha \cdot 0$$
+>>$$(\alpha \cdot 0) + (-\alpha \cdot 0) = (\alpha \cdot 0) + (\alpha \cdot 0) + (-\alpha \cdot 0)$$
+>>$$0 = \alpha \cdot 0$$
+
 >[!THEOREM] 
 >Every field is also a [commutative](../Rings/Commutative%20Ring.md) [ring](../Rings/Ring.md).
 >>[!PROOF]-

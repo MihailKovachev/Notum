@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"43227f481842d07f","x":-97,"y":-142,"width":677,"height":662,"color":"1","type":"file","file":"Algebra/Rings/Ring.md"},
+		{"id":"01a00a3141b17f4f","x":660,"y":-142,"width":400,"height":271,"color":"1","type":"file","file":"Algebra/Rings/Commutative Ring.md"}
+	],
+	"edges":[]
+}

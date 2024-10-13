@@ -17,7 +17,7 @@
 >
 >>[!DEFINITION] Definition: Geometric Multiplicity
 >>
->>The **geometric multiplicity** of an [eigenvalue](Eigenvalue.md) $\lambda$ is the [dimension](../../../Bases/Dimension.md) of its [eigenspace](Eigenspace.md).
+>>The **geometric multiplicity** of an [eigenvalue](Eigenvalue.md) $\lambda$ is the [dimension](../../../Vector%20Spaces/Bases/Dimension.md) of its [eigenspace](Eigenspace.md).
 >>
 >>>[!NOTATION]
 >>>
