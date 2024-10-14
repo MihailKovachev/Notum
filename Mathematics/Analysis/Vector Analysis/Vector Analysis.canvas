@@ -1,9 +1,9 @@
 {
 	"nodes":[
-		{"id":"533f64fb365776f1","x":-182,"y":-186,"width":502,"height":226,"color":"1","type":"file","file":"Analysis/Vector Analysis/Real Vector-Valued Function.md"},
-		{"id":"3e9f395654ace8f5","x":480,"y":-186,"width":555,"height":406,"color":"1","type":"file","file":"Analysis/Vector Analysis/Real Vector Function.md"},
-		{"id":"657af6b3361d4567","x":568,"y":-720,"width":380,"height":232,"color":"1","type":"file","file":"Analysis/Vector Analysis/Scalar Fields/Real Scalar Field.md"},
-		{"id":"8394be3c0f58e14c","x":1300,"y":-720,"width":380,"height":232,"color":"1","type":"file","file":"Analysis/Vector Analysis/Vector Fields/Real Vector Field.md"}
+		{"id":"3e9f395654ace8f5","type":"file","file":"Analysis/Vector Analysis/Real Vector Functions/Real Vector Function.md","x":481,"y":-389,"width":555,"height":406,"color":"1"},
+		{"id":"533f64fb365776f1","type":"file","file":"Analysis/Vector Analysis/Real Vector-Valued Function.md","x":-80,"y":-299,"width":502,"height":226,"color":"1"},
+		{"id":"657af6b3361d4567","type":"file","file":"Analysis/Vector Analysis/Scalar Fields/Real Scalar Field.md","x":569,"y":-680,"width":380,"height":232,"color":"1"},
+		{"id":"8394be3c0f58e14c","type":"file","file":"Analysis/Vector Analysis/Vector Fields/Real Vector Field.md","x":1160,"y":-680,"width":380,"height":232,"color":"1"}
 	],
 	"edges":[]
 }
