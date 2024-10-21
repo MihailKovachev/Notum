@@ -1,1 +1,0 @@
->[!DEFINITION] Definition: Isohoric Process

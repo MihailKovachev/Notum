@@ -8,11 +8,6 @@
 >
 >where $\gamma$ is the [Lorentz factor](Lorentz%20Factor.md) for the two inertial frames of reference, $c$ is the [speed of light](../../Mechanics/Speed%20of%20Light.md) in a vacuum and $\boldsymbol{\beta} = \frac{1}{c} \boldsymbol{u}$.
 >
->>[!NOTE] Note: Relativity of Simultaneity
->>
->>The fact that $t$ and $t'$ can be different means that two events which are perceived as simultaneous in one frame of reference need not be perceived as simultaneous in the other. Moreover, the order of the events can be different depending on the frame of reference.
->>
->
 >>[!PROOF]-
 >>
 >>TODO
