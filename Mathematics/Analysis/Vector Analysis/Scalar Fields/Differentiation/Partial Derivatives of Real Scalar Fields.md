@@ -14,5 +14,5 @@
 
 >[!DEFINITION] Definition: (Continuous) Partial Differentiability
 >
->A [real scalar field](../Real%20Scalar%20Field.md) is called $k$**-times (continuously) partially differentiable** if all of its $k$-th order [partial derivatives](Partial%20Derivatives%20of%20Real%20Scalar%20Fields.md) exist (and are [continuous](../Continuity%20of%20Real%20Scalar%20Fields.md)).
+>A [real scalar field](../Real%20Scalar%20Field.md) $f$ is called $k$**-times (continuously) partially differentiable** if all of its $k$-th order [partial derivatives](Partial%20Derivatives%20of%20Real%20Scalar%20Fields.md) exist (and are [continuous](../Continuity%20of%20Real%20Scalar%20Fields.md)). 
 >
