@@ -1,6 +1,6 @@
 >[!DEFINITION] Definition: Curve Parameterisation
 >
->A **curve parameterisation** is a [continuous](../Real%20Vector%20Functions/Continuity%20of%20Real%20Vector%20Functions.md) [real vector function](../Real%20Vector%20Functions/Real%20Vector%20Function.md) $\gamma: I \subseteq \mathbb{R} \to \mathbb{R}^n$.
+>A **curve parameterisation** is a [real vector function](../Real%20Vector%20Functions/Real%20Vector%20Function.md) $\gamma: I \subseteq \mathbb{R} \to \mathbb{R}^n$.
 >
 >>[!NOTATION]
 >>
