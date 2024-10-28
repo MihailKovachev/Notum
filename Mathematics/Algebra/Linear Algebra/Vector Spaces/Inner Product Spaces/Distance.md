@@ -11,7 +11,7 @@
 >
 >>[!THEOREM] Theorem
 >>
->>The distance $d$ is a [metric](../../../../Geometry/Metric%20Space.md) on the [inner product space](Inner%20Product%20Space.md).
+>>The distance $d$ is a [metric](../../../../Topology/Metric%20Spaces/Metric%20Space.md) on the [inner product space](Inner%20Product%20Space.md).
 >>
 >>>[!PROOF]-
 >>>

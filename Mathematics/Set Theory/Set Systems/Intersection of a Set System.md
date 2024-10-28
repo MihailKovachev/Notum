@@ -4,4 +4,6 @@
 >$$\{x \mid \forall E \in S:  x \in E\}$$
 >
 >>[!NOTATION]
+>>
 >>$$\bigcap S$$
+>>

@@ -35,7 +35,7 @@
 >>
 
 >[!THEOREM] Theorem: Linearity of the Double Integral
->Let $f,g: D\to\mathbb{R}$ be [real scalar fields](../Real%20Scalar%20Field.md) over a [general region](../../../../Geometry/Topology/General%20Regions%20in%202D.md) $D \subset \mathbb{R}^2$.
+>Let $f,g: D\to\mathbb{R}$ be [real scalar fields](../Real%20Scalar%20Field.md) over a [general region](../../../../Topology/General%20Regions%20in%202D.md) $D \subset \mathbb{R}^2$.
 >
 >The [double integral](Double%20Integral%20of%20a%20Real%20Scalar%20Field.md) is [linear](../../../../Algebra/Linear%20Algebra/Linear%20Transformations/Linear%20Transformation.md) - for all $\lambda,\mu\in\mathbb{R}$:
 >
@@ -50,11 +50,11 @@
 >[!THEOREM] Theorem: Double Integral over General Regions
 >Let $f: D\subseteq\mathbb{R}^2 \to\mathbb{R}$ be a [real scalar field](../Real%20Scalar%20Field.md).
 >
->If $f$ is [continuous](../Continuity%20of%20Real%20Scalar%20Fields.md) and $D$ is a [general region](../../../../Geometry/Topology/General%20Regions%20in%202D.md) $D = \{(x,y)\mid a\le x \le b, l(x) \le y \le u(x)\}$, then the [double integral](Double%20Integral%20of%20a%20Real%20Scalar%20Field.md) of $f$ over $D$ can be calculated through via iterated [parametric integrals](Parametric%20Integrals.md):
+>If $f$ is [continuous](../Continuity%20of%20Real%20Scalar%20Fields.md) and $D$ is a [general region](../../../../Topology/General%20Regions%20in%202D.md) $D = \{(x,y)\mid a\le x \le b, l(x) \le y \le u(x)\}$, then the [double integral](Double%20Integral%20of%20a%20Real%20Scalar%20Field.md) of $f$ over $D$ can be calculated through via iterated [parametric integrals](Parametric%20Integrals.md):
 >
 >$$\iint\limits_D f(x,y) \mathop{\mathrm{d}A} = \int_a^b \int_{l(x)}^{u(x)} f(x, y) \mathop{\mathrm{d}y}\mathop{\mathrm{d}x}$$
 >
->If $f$ is [continuous](../Continuity%20of%20Real%20Scalar%20Fields.md) and $D$ is a [general region](../../../../Geometry/Topology/General%20Regions%20in%202D.md) $D = \{(x,y)\mid l(y)\le x \le u(y), a \le y \le b\}$, then the [double integral](Double%20Integral%20of%20a%20Real%20Scalar%20Field.md) of $f$ over $D$ can be calculated through via iterated [parametric integrals](Parametric%20Integrals.md):
+>If $f$ is [continuous](../Continuity%20of%20Real%20Scalar%20Fields.md) and $D$ is a [general region](../../../../Topology/General%20Regions%20in%202D.md) $D = \{(x,y)\mid l(y)\le x \le u(y), a \le y \le b\}$, then the [double integral](Double%20Integral%20of%20a%20Real%20Scalar%20Field.md) of $f$ over $D$ can be calculated through via iterated [parametric integrals](Parametric%20Integrals.md):
 >
 >$$\iint\limits_D f(x,y) \mathop{\mathrm{d}A} = \int_a^b \int_{l(y)}^{u(y)} f(x, y) \mathop{\mathrm{d}x}\mathop{\mathrm{d}y}$$
 >
@@ -66,7 +66,7 @@
 >[!THEOREM] Theorem: Region Decomposition
 >Let $f: D \subset \mathbb{R}^2 \to\mathbb{R}$ be a [real scalar field](../Real%20Scalar%20Field.md).
 >
->If $D$ can be represented as a [union](../../../../Set%20Theory/Operations%20with%20Sets/Union.md) [disjoint](../../../../Set%20Theory/Disjoint%20Sets.md) $D = D_1\cup\cdots\cup D_n$ of finitely many [disjoint](../../../../Set%20Theory/Disjoint%20Sets.md) [general regions](../../../../Geometry/Topology/General%20Regions%20in%202D.md), then the [double integral](Double%20Integral%20of%20a%20Real%20Scalar%20Field.md) of $f$ over $D$ is the sum of the [double integrals](Double%20Integral%20of%20a%20Real%20Scalar%20Field.md) of $f$ over $D_1,\cdots, D_n$:
+>If $D$ can be represented as a [union](../../../../Set%20Theory/Operations%20with%20Sets/Union.md) [disjoint](../../../../Set%20Theory/Disjoint%20Sets.md) $D = D_1\cup\cdots\cup D_n$ of finitely many [disjoint](../../../../Set%20Theory/Disjoint%20Sets.md) [general regions](../../../../Topology/General%20Regions%20in%202D.md), then the [double integral](Double%20Integral%20of%20a%20Real%20Scalar%20Field.md) of $f$ over $D$ is the sum of the [double integrals](Double%20Integral%20of%20a%20Real%20Scalar%20Field.md) of $f$ over $D_1,\cdots, D_n$:
 >
 >$$\iint\limits_D f(x,y) \mathop{\mathrm{d}A} = \iint\limits_{D_1} f(x,y) \mathop{\mathrm{d}A} + \cdots + \iint\limits_{D_n} f(x,y) \mathop{\mathrm{d}A}$$
 >

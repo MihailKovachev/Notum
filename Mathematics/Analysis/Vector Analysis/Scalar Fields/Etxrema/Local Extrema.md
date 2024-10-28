@@ -1,7 +1,7 @@
 >[!DEFINITION] Definition: Local Minimum
 >Let $f: D\subseteq\mathbb{R}^n\to\mathbb{R}$ be a [real scalar field](../Real%20Scalar%20Field.md).
 >
->We say that $f(\vec{x}_0)$ is a **local minimum** of $f$ if there is an [open ball](../../../../Geometry/Topology/Open%20Ball.md) $B_\varepsilon (\vec{x}_0)$ around $\vec{x}_0\in D$ where $f(\vec{x}_0)$ is the smallest funtional value.
+>We say that $f(\vec{x}_0)$ is a **local minimum** of $f$ if there is an [open ball](../../../../Topology/Metric%20Spaces/Open%20Ball.md) $B_\varepsilon (\vec{x}_0)$ around $\vec{x}_0\in D$ where $f(\vec{x}_0)$ is the smallest funtional value.
 >
 >$$f(\vec{x}_0) \le f(\vec{x}) \qquad \forall \vec{x}\in B_\varepsilon (\vec{x}_0)$$
 >
@@ -11,7 +11,7 @@
 >[!DEFINITION] Definition: Global Maximum
 >Let $f: D\subseteq\mathbb{R}^n\to\mathbb{R}$ be a [real scalar field](../Real%20Scalar%20Field.md).
 >
->We say that $f(\vec{x}_0)$ is a **local maximum** of $f$ if there is an [open ball](../../../../Geometry/Topology/Open%20Ball.md) $B_\varepsilon (\vec{x}_0)$ around $\vec{x}_0\in D$ where $f(\vec{x}_0)$ is the greatest funtional value.
+>We say that $f(\vec{x}_0)$ is a **local maximum** of $f$ if there is an [open ball](../../../../Topology/Metric%20Spaces/Open%20Ball.md) $B_\varepsilon (\vec{x}_0)$ around $\vec{x}_0\in D$ where $f(\vec{x}_0)$ is the greatest funtional value.
 >
 >$$f(\vec{x}_0) \ge f(\vec{x}) \qquad \forall \vec{x}\in B_\varepsilon (\vec{x}_0)$$
 >
@@ -34,7 +34,7 @@
 >
 
 >[!THEOREM] Theorem: Hessian Matrix Criteria for Local Extrema
->Let $f: D\subseteq\mathbb{R}^n\to\mathbb{R}$ be a [twice continuously partially differentiable](../Differentiation/Partial%20Derivatives%20of%20Real%20Scalar%20Fields.md) [real scalar field](../Real%20Scalar%20Field.md) on an [open subset](../../../../Geometry/Topology/Open%20Set.md) $D$ of $\mathbb{R}^n$.
+>Let $f: D\subseteq\mathbb{R}^n\to\mathbb{R}$ be a [twice continuously partially differentiable](../Differentiation/Partial%20Derivatives%20of%20Real%20Scalar%20Fields.md) [real scalar field](../Real%20Scalar%20Field.md) on an [open subset](../../../../Topology/Metric%20Spaces/The%20Metric%20Topology.md#^opensets) $D$ of $\mathbb{R}^n$.
 >
 >A [critical point](../Differentiation/Critical%20Point.md) $\vec{x}_0 \in D$ is:
 >- a place of a [local maximum](Local%20Extrema.md) if the [Hessian matrix](../Differentiation/Hessian%20Matrix.md) $H_f(\vec{x}_0)$ is [negative-definite](../../../../Algebra/Linear%20Algebra/Matrices/Real%20Matrices/Real%20Symmetric%20Matrices/Definiteness%20of%20Real%20Symmetric%20Matrices.md);

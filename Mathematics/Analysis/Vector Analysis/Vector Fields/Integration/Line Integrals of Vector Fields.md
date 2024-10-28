@@ -1,12 +1,12 @@
 >[!THEOREM] Theorem: Line Integrals of Vector Fields
 >
->Let $\boldsymbol{v}: D\subseteq \mathbb{R}^n \to \mathbb{R}^n$ be a [real vector field](../Real%20Vector%20Field.md) and let $\gamma: [a;b] \to D$ and $\varphi: [c;d] \to D$ be [piecewise continuously differentiable](../../Real%20Vector%20Functions/Differentiation/Partial%20Derivatives%20of%20Real%20Vector%20Functions.md) [parameterisations](../../Curve%20Parameterisation/Curve%20Parameterisation.md) of a [curve](../../../../Geometry/Topology/Curves/Curve.md) $\mathcal{C} \subset D$.
+>Let $\boldsymbol{v}: D\subseteq \mathbb{R}^n \to \mathbb{R}^n$ be a [real vector field](../Real%20Vector%20Field.md) and let $\gamma: [a;b] \to D$ and $\varphi: [c;d] \to D$ be [piecewise continuously differentiable](../../Real%20Vector%20Functions/Differentiation/Partial%20Derivatives%20of%20Real%20Vector%20Functions.md) [parameterisations](../../Curve%20Parameterisation/Curve%20Parameterisation.md) of a [curve](../../../../Topology/Curves/Curve.md) $\mathcal{C} \subset D$.
 >
->If $\gamma$ and $\varphi$ have the [same orientation](../../../../Geometry/Topology/Curves/Curve.md), then the following [definite integrals](../../../Real%20Analysis/Integration/Definite%20Integrals/Definite%20Integral.md) (where "$\cdot$" denotes the [dot product](../../../../Algebra/Linear%20Algebra/Matrices/Row%20&%20Column%20Vectors/Real%20Vectors/Real%20Dot%20Product.md)) are equal :
+>If $\gamma$ and $\varphi$ have the [same orientation](../../../../Topology/Curves/Curve.md), then the following [definite integrals](../../../Real%20Analysis/Integration/Definite%20Integrals/Definite%20Integral.md) (where "$\cdot$" denotes the [dot product](../../../../Algebra/Linear%20Algebra/Matrices/Row%20&%20Column%20Vectors/Real%20Vectors/Real%20Dot%20Product.md)) are equal :
 >
 >$$\int_a^b \boldsymbol{v}(\gamma(t)) \cdot \gamma'(t) \mathop{\mathrm{d}t} = \int_c^d \boldsymbol{v}(\varphi(t)) \cdot \varphi'(t) \mathop{\mathrm{d}t}$$
 >
->If $\gamma$ and $\varphi$ have [opposite orientations](../../../../Geometry/Topology/Curves/Curve.md), then the integrals are opposite:
+>If $\gamma$ and $\varphi$ have [opposite orientations](../../../../Topology/Curves/Curve.md), then the integrals are opposite:
 >
 >$$\int_a^b \boldsymbol{v}(\gamma(t)) \cdot \gamma'(t) \mathop{\mathrm{d}t} = - \int_c^d \boldsymbol{v}(\varphi(t)) \cdot \varphi'(t) \mathop{\mathrm{d}t}$$
 >
@@ -14,7 +14,7 @@
 >>
 >>We will just show this for the case when $\gamma$ and $\varphi$ are *not* piecewise, since the proof is easily generalisable - if $\gamma$ and $\varphi$ *are* piecewise, then one can just apply the following proof to each of their partitions and obtain the same end result after summing the results from each partition.
 >>
->>Since $\gamma$ and $\varphi$ parameterise the same curve $\mathcal{C}$, we can [reparameterise](../../../../Geometry/Topology/Curves/Curve.md) one in the other. More specifically, there exists a [bijective](../../../../Set%20Theory/Functions/Injection,%20Surjection,%20Bijection.md), [continuously differentiable function](../../../Real%20Analysis/Differentiation/Differentiability%20of%20Real%20Functions.md) $u: [a;b] \to [c;d]$ such that
+>>Since $\gamma$ and $\varphi$ parameterise the same curve $\mathcal{C}$, we can [reparameterise](../../../../Topology/Curves/Curve.md) one in the other. More specifically, there exists a [bijective](../../../../Set%20Theory/Functions/Injection,%20Surjection,%20Bijection.md), [continuously differentiable function](../../../Real%20Analysis/Differentiation/Differentiability%20of%20Real%20Functions.md) $u: [a;b] \to [c;d]$ such that
 >>
 >>$$\varphi(u(t)) = \gamma (t)$$
 >>
@@ -22,13 +22,13 @@
 >>
 >>$$\int_a^b \boldsymbol{v}(\gamma(t))\cdot \gamma' (t)\mathop{\mathrm{d}t} = \int_a^b \boldsymbol{v}(\varphi(u(t))) \cdot \varphi' (u(t)) \,u'(t) \mathop{\mathrm{d}t}$$
 >>
->>If $\gamma$ and $\varphi$ have the [same orientation](../../../../Geometry/Topology/Curves/Curve.md), then $u(a) = c$ and $u(b) = d$. Using the substitution $\mathrm{d}u = u'(t) \mathop{\mathrm{d}t}$ we obtain
+>>If $\gamma$ and $\varphi$ have the [same orientation](../../../../Topology/Curves/Curve.md), then $u(a) = c$ and $u(b) = d$. Using the substitution $\mathrm{d}u = u'(t) \mathop{\mathrm{d}t}$ we obtain
 >>
 >>$$\int_a^b \boldsymbol{v}(\varphi(u(t))) \cdot \varphi' (u(t)) \,u'(t) \mathop{\mathrm{d}t} = \int_c^d \boldsymbol{v}(\varphi(u)) \cdot \varphi' (u) \mathop{\mathrm{d}u}$$
 >>
 >>$$\int_a^b \boldsymbol{v}(\gamma(t))\cdot \gamma' (t)\mathop{\mathrm{d}t} = \int_c^d \boldsymbol{v}(\varphi(u)) \cdot \varphi' (u) \mathop{\mathrm{d}u}$$
 >>
->>If $\gamma$ and $\varphi$ have the [same orientation](../../../../Geometry/Topology/Curves/Curve.md), then $u(a) = d$ and $u(b) = c$. Using the substitution $\mathrm{d}u = u'(t) \mathop{\mathrm{d}t}$ we obtain
+>>If $\gamma$ and $\varphi$ have the [same orientation](../../../../Topology/Curves/Curve.md), then $u(a) = d$ and $u(b) = c$. Using the substitution $\mathrm{d}u = u'(t) \mathop{\mathrm{d}t}$ we obtain
 >>
 >>$$\int_a^b \boldsymbol{v}(\varphi(u(t))) \cdot \varphi' (u(t)) \,u'(t) \mathop{\mathrm{d}t} = \int_d^c \boldsymbol{v}(\varphi(u)) \cdot \varphi' (u) \mathop{\mathrm{d}u}$$
 >>
@@ -37,7 +37,7 @@
 >
 >>[!DEFINITION] Definition: Line Integral of a Vector Field
 >>
->>Let $\boldsymbol{v}: D \subseteq \mathbb{R}^n \to \mathbb{R}^n$ be a a [real vector field](../Real%20Vector%20Field.md) and let $\mathcal{C} \subseteq D$ be a [curve](../../../../Geometry/Topology/Curves/Curve.md) with a [parameterisation](../../Curve%20Parameterisation/Curve%20Parameterisation.md) $\gamma: [a;b] \to D$. The **line integral** of $\boldsymbol{v}$ over $\mathcal{C}$ is the [definite integral](../../../Real%20Analysis/Integration/Definite%20Integrals/Definite%20Integral.md)
+>>Let $\boldsymbol{v}: D \subseteq \mathbb{R}^n \to \mathbb{R}^n$ be a a [real vector field](../Real%20Vector%20Field.md) and let $\mathcal{C} \subseteq D$ be a [curve](../../../../Topology/Curves/Curve.md) with a [parameterisation](../../Curve%20Parameterisation/Curve%20Parameterisation.md) $\gamma: [a;b] \to D$. The **line integral** of $\boldsymbol{v}$ over $\mathcal{C}$ is the [definite integral](../../../Real%20Analysis/Integration/Definite%20Integrals/Definite%20Integral.md)
 >>
 >>$$\int \boldsymbol{v}(t) \cdot \gamma'(t) \mathop{\mathrm{d}t}$$
 >>
@@ -47,7 +47,7 @@
 >>>
 >>>$$\int_\mathcal{C} \boldsymbol{v} \cdot \mathop{\mathrm{d}\boldsymbol{s}}$$
 >>>
->>>If $\mathcal{C}$ is [closed](../../../../Geometry/Topology/Curves/Closed%20Curve.md), we write
+>>>If $\mathcal{C}$ is [closed](../../../../Topology/Curves/Closed%20Curve.md), we write
 >>>
 >>>$$\oint_\mathcal{C} \boldsymbol{v} \cdot \mathop{\mathrm{d}\boldsymbol{s}}$$
 >>>
@@ -60,7 +60,7 @@
 
 >[!THEOREM] Theorem: Linearity of the Vector Line Integral
 >
->The [vector line integral](Line%20Integrals%20of%20Vector%20Fields.md) is [linear](../../../../Algebra/Linear%20Algebra/Linear%20Transformations/Linear%20Transformation.md) - for all [vector fields](../Real%20Vector%20Field.md) $\boldsymbol{v}, \boldsymbol{w}: D \subseteq \mathbb{R}^n \to \mathbb{R}^n$, all $\lambda, \mu \in \mathbb{R}$ and every [curve](../../../../Geometry/Topology/Curves/Curve.md) $\mathcal{C} \subseteq D$:
+>The [vector line integral](Line%20Integrals%20of%20Vector%20Fields.md) is [linear](../../../../Algebra/Linear%20Algebra/Linear%20Transformations/Linear%20Transformation.md) - for all [vector fields](../Real%20Vector%20Field.md) $\boldsymbol{v}, \boldsymbol{w}: D \subseteq \mathbb{R}^n \to \mathbb{R}^n$, all $\lambda, \mu \in \mathbb{R}$ and every [curve](../../../../Topology/Curves/Curve.md) $\mathcal{C} \subseteq D$:
 >
 >$$\int_\mathcal{C} (\lambda\, \boldsymbol{v} +\mu \, \boldsymbol{w})\cdot\mathop{\mathrm{d}\boldsymbol{s}} = \lambda\int_\mathcal{C} \boldsymbol{v}\cdot\mathop{\mathrm{d}\boldsymbol{s}} + \mu \int_\mathcal{C} \boldsymbol{w}\cdot \mathop{\mathrm{d}\boldsymbol{s}}$$
 >
@@ -72,7 +72,7 @@
 
 >[!THEOREM] Theorem: Partitioning of the Vector Line Integral
 >
->Let $\boldsymbol{v}: D \subseteq \mathbb{R}^n \to \mathbb{R}^n$ be a [real vector field](../Real%20Vector%20Field.md) and $\mathcal{C} \subset D$ be a [curve](../../../../Geometry/Topology/Curves/Curve.md).
+>Let $\boldsymbol{v}: D \subseteq \mathbb{R}^n \to \mathbb{R}^n$ be a [real vector field](../Real%20Vector%20Field.md) and $\mathcal{C} \subset D$ be a [curve](../../../../Topology/Curves/Curve.md).
 >
 >If $\mathcal{C}$ can be represented as a [union](../../../../Set%20Theory/Operations%20with%20Sets/Union.md) $\mathcal{C} = \mathcal{C}_1 \cup \cdots \cup \mathcal{C}_k$ of finitely many [disjoint](../../../../Set%20Theory/Disjoint%20Sets.md) curves $\mathcal{C}_1, \cdots,\mathcal{C}_k$, then the [line integral](Line%20Integrals%20of%20Vector%20Fields.md) of $\boldsymbol{v}$ over $\mathcal{C}$ is just the sum of line integrals of $\boldsymbol{v}$ over $\mathcal{C}_1, \cdots,\mathcal{C}_k$:
 >

@@ -1,8 +1,8 @@
 >[!DEFINITION] Definition: Curve
 >
->A **curve** $\mathcal{C}$ is a [subset](../../../Set%20Theory/Subset.md) of the [real vector space](../../../Algebra/Linear%20Algebra/Matrices/Row%20&%20Column%20Vectors/Real%20Vectors/Structure%20of%20the%20Real%20Vector%20Space.md) $\mathbb{R}^n$ for which there is a [continuous function](../../../Analysis/Vector%20Analysis/Real%20Vector%20Functions/Continuity%20of%20Real%20Vector%20Functions.md) $\gamma: I \subseteq \mathbb{R} \to \mathbb{R}^n$ whose [image](../../../Set%20Theory/Functions/Function.md) is $\mathcal{C}$.
+>A **curve** $\mathcal{C}$ in $\mathbb{R}^n$ is a [subset](../../../Set%20Theory/Subset.md) of the [real vector space](../../../Algebra/Linear%20Algebra/Matrices/Row%20&%20Column%20Vectors/Real%20Vectors/Structure%20of%20the%20Real%20Vector%20Space.md) $\mathbb{R}^n$ for which there is a [function](../../../Analysis/Vector%20Analysis/Curve%20Parameterisation/Curve%20Parameterisation.md) $\gamma: I \subseteq \mathbb{R} \to \mathbb{R}^n$ whose [image](../../../Set%20Theory/Functions/Function.md) is $\mathcal{C}$.
 >
->The [function](../../../Analysis/Vector%20Analysis/Real%20Vector%20Functions/Real%20Vector%20Function.md) $\gamma$ is called a **parameterisation** of $\mathcal{C}$.
+>The function $\gamma$ is called a **parameterisation** of $\mathcal{C}$.
 >
 >>[!NOTE]
 >>

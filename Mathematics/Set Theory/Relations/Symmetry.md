@@ -5,9 +5,13 @@
 >
 >for all $x,y \in A$.
 
->[!DEFINITION] Definition: Antisymmetric Relation
->A [relation](Relation.md) $R \subseteq A \times A$ is **antisymmetric** if
+>[!DEFINITION] Definition: Asymmetric Relation
+>
+>A [relation](Relation.md) $R \subseteq A \times A$ is **asymmetric** if
 >
 >$$((x\,\, R\,\, y) \land (y\,\, R \,\, x)) \implies x=y$$
 >
 >for all $x,y, \in A$
+>
+>^asymmetric
+>
