@@ -7,11 +7,6 @@
 >>$$\gamma'(t) \qquad \dot{\gamma}(t) \qquad \frac{\mathrm{d}}{\mathrm{d}t}\gamma(t) \qquad \frac{\mathrm{d}\gamma}{\mathrm{d}t}(t)$$
 >>
 >
->>[!DEFINITION] Definition: Tangent Vector
->>
->>The [derivative](Differentiability%20of%20Curve%20Parameterisations.md) of a [curve parameterisation](Curve%20Parameterisation.md) $\gamma: I \subseteq \mathbb{R} \to \mathbb{R}^n$ at a specific point $t \in I$ is called the **tangent vector** to $\gamma$ at $t$.
->>
->
 
 >[!DEFINITION] Definition: (Continuous) Differentiability of Curve Parameterisations
 >

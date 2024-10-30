@@ -20,7 +20,9 @@
 >
 >>[!NOTE] Note: Geometric Meaning of Divergence
 >>
+>>The divergence at a given point is a measure of how much the surrounding vector field flows into or out of it.
 >>
+>>TODO
 >>
 >
 

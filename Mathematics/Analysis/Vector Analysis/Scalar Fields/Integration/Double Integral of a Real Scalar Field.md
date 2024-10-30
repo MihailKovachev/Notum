@@ -8,7 +8,7 @@
 >
 >>[!NOTATION]
 >>
->>$$\iint\limits_R f(x,y)\mathop{\mathrm{d}A}$$
+>>$$\iint\limits_R f\mathop{\mathrm{d}R} \qquad \iint\limits_R f\mathop{\mathrm{d}A} \qquad \iint\limits_R f(x,y)\mathop{\mathrm{d}A}$$
 >>
 >
 
@@ -18,7 +18,7 @@
 >
 >The **double integral of** $f$ **over** $D$ is the [double integral](Double%20Integral%20of%20a%20Real%20Scalar%20Field.md)
 >
->$$\iint\limits_R \mathcal{F}(x,y)\mathop{\mathrm{d}A},$$
+>$$\iint\limits_R \mathcal{F}\mathop{\mathrm{d}R},$$
 >
 >where $R \subset \mathbb{R}^2$ is any rectangle which completely contains $D$ and 
 >
@@ -26,7 +26,7 @@
 >
 >>[!NOTATION]
 >>
->>$$\iint\limits_D f(x,y)\mathop{\mathrm{d}A}$$
+>>$$\iint\limits_D f \mathop{\mathrm{d}D} \qquad \iint\limits_D f \mathop{\mathrm{d}A} \qquad \iint\limits_D f(x,y) \mathop{\mathrm{d}A}$$
 >
 >>[!NOTE] Note: Geometric Meaning of the Double Intgeral
 >>The [double integral](Double%20Integral%20of%20a%20Real%20Scalar%20Field.md) of $f$ over $D$ is the signed volume between the graph of $f$ and $D$.
@@ -52,11 +52,11 @@
 >
 >If $f$ is [continuous](../Continuity%20of%20Real%20Scalar%20Fields.md) and $D$ is a [general region](../../../../Topology/General%20Regions%20in%202D.md) $D = \{(x,y)\mid a\le x \le b, l(x) \le y \le u(x)\}$, then the [double integral](Double%20Integral%20of%20a%20Real%20Scalar%20Field.md) of $f$ over $D$ can be calculated through via iterated [parametric integrals](Parametric%20Integrals.md):
 >
->$$\iint\limits_D f(x,y) \mathop{\mathrm{d}A} = \int_a^b \int_{l(x)}^{u(x)} f(x, y) \mathop{\mathrm{d}y}\mathop{\mathrm{d}x}$$
+>$$\iint\limits_D f \mathop{\mathrm{d}D} = \int_a^b \int_{l(x)}^{u(x)} f(x, y) \mathop{\mathrm{d}y}\mathop{\mathrm{d}x}$$
 >
 >If $f$ is [continuous](../Continuity%20of%20Real%20Scalar%20Fields.md) and $D$ is a [general region](../../../../Topology/General%20Regions%20in%202D.md) $D = \{(x,y)\mid l(y)\le x \le u(y), a \le y \le b\}$, then the [double integral](Double%20Integral%20of%20a%20Real%20Scalar%20Field.md) of $f$ over $D$ can be calculated through via iterated [parametric integrals](Parametric%20Integrals.md):
 >
->$$\iint\limits_D f(x,y) \mathop{\mathrm{d}A} = \int_a^b \int_{l(y)}^{u(y)} f(x, y) \mathop{\mathrm{d}x}\mathop{\mathrm{d}y}$$
+>$$\iint\limits_D f \mathop{\mathrm{d}D} = \int_a^b \int_{l(y)}^{u(y)} f(x, y) \mathop{\mathrm{d}x}\mathop{\mathrm{d}y}$$
 >
 >>[!PROOF]-
 >>
@@ -68,7 +68,7 @@
 >
 >If $D$ can be represented as a [union](../../../../Set%20Theory/Operations%20with%20Sets/Union.md) [disjoint](../../../../Set%20Theory/Disjoint%20Sets.md) $D = D_1\cup\cdots\cup D_n$ of finitely many [disjoint](../../../../Set%20Theory/Disjoint%20Sets.md) [general regions](../../../../Topology/General%20Regions%20in%202D.md), then the [double integral](Double%20Integral%20of%20a%20Real%20Scalar%20Field.md) of $f$ over $D$ is the sum of the [double integrals](Double%20Integral%20of%20a%20Real%20Scalar%20Field.md) of $f$ over $D_1,\cdots, D_n$:
 >
->$$\iint\limits_D f(x,y) \mathop{\mathrm{d}A} = \iint\limits_{D_1} f(x,y) \mathop{\mathrm{d}A} + \cdots + \iint\limits_{D_n} f(x,y) \mathop{\mathrm{d}A}$$
+>$$\iint\limits_D f \mathop{\mathrm{d}A} = \iint\limits_{D_1} \mathop{\mathrm{d}D_1} + \cdots + \iint\limits_{D_n} f \mathop{\mathrm{d}D_n}$$
 >
 >>[!PROOF]-
 >>

@@ -46,7 +46,7 @@
 		{"id":"b473d6f7e228230d","type":"file","file":"Algebra/Linear Algebra/Vector Spaces/Complex Vector Space.md","x":1377,"y":-1038,"width":480,"height":237,"color":"1"},
 		{"id":"ea894eec20de15b2","type":"file","file":"Algebra/Linear Algebra/Linear Transformations/Properties of Linear Transformations.md","x":-1100,"y":-1693,"width":536,"height":789,"color":"5"},
 		{"id":"2695a465a63fe5d4","type":"file","file":"Algebra/Linear Algebra/Vector Spaces/Inner Product Spaces/Canonical Norm.md","x":2716,"y":-1399,"width":560,"height":463,"color":"1"},
-		{"id":"037cc7192c165efc","type":"file","file":"Algebra/Linear Algebra/Vector Spaces/Inner Product Spaces/Distance.md","x":3457,"y":-1721,"width":523,"height":554,"color":"1"},
+		{"id":"037cc7192c165efc","type":"file","file":"Algebra/Linear Algebra/Vector Spaces/Inner Product Spaces/Euclidean Distance.md","x":3457,"y":-1721,"width":523,"height":554,"color":"1"},
 		{"id":"f1e393e83e5dca1f","type":"file","file":"Algebra/Linear Algebra/Linear Transformations/Kernel.md","x":-2380,"y":-1693,"width":445,"height":294,"color":"1"},
 		{"id":"f8c447a751425776","type":"file","file":"Algebra/Linear Algebra/Linear Transformations/Linear Transformation.md","x":-1787,"y":-1693,"width":587,"height":272,"color":"1"},
 		{"id":"c9a324088c5eb65e","type":"file","file":"Algebra/Linear Algebra/Matrices/Square Matrices/Determinants/Cofactor Matrix.md","x":-6840,"y":5944,"width":452,"height":395,"color":"1"},
