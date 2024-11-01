@@ -4,7 +4,7 @@
 >
 >- The [empty set](../../Set%20Theory/The%20Empty%20Set.md) $\varnothing$ and $S$ are in $\tau$.
 >- The [union](../../Set%20Theory/Set%20Systems/Union%20of%20a%20Set%20System.md) of any subset of $\tau$ is in $\tau$.
->- The [intersection](../../Set%20Theory/Set%20Systems/Intersection%20of%20a%20Set%20System.md) of any two elements of $\tau$ is in $\tau$.
+>- The [intersection](../../Set%20Theory/Set%20Systems/Intersection%20of%20a%20Set%20System.md) of any finite collection of elements of $\tau$ is in $\tau$.
 >
 >>[!EXAMPLE]-
 >>

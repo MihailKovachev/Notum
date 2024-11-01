@@ -3,6 +3,11 @@
     --callout-icon: lucide-scroll-text;
 }
 
+.callout[data-callout="intuition"] {
+    --callout-color: 255, 255, 0;
+    --callout-icon: lucide-lightbulb;
+}
+
 .callout[data-callout="notation"] {
     --callout-icon: lucide-pen-tool;
 }

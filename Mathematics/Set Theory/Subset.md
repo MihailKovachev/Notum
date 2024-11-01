@@ -16,6 +16,12 @@
 >>In other words, there are elements in $B$ which are *not* elements of $A$.
 >>
 >>>[!NOTATION]
+>>>
 >>>If $A$ is a true subset of $B$, we write $A \subset B$.
 >>>
 >>>If $A$ is a subset, but not a *true* subset, of $B$, we write $A \subsetneq B$.
+>>
+>>>[!NOTE]
+>>>
+>>>True subset are also known as **strict subsets**.
+>>>

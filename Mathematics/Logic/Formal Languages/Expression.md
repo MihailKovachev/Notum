@@ -1,8 +1,8 @@
 >[!DEFINITION] Definition: Expression
 >
->Let $\mathcal{A}$ be an [alphabet](Alphabet.md).
+>Let $\mathcal{A}$ be an [alphabet](Alphabets%20and%20Symbols.md).
 >
->An **expression** over $\mathcal{A}$ is a [tuple](../../Set%20Theory/Tuple.md) of [symbols](Alphabet.md) from $\mathcal{A}$.
+>An **expression** over $\mathcal{A}$ is a [tuple](../../Set%20Theory/Tuple.md) of [symbols](Alphabets%20and%20Symbols.md) from $\mathcal{A}$.
 >
 >>[!NOTE] Note: Strings
 >>
@@ -11,7 +11,7 @@
 >
 >>[!NOTATION]
 >>
->>Expressions are usually written by listing their symbols directly, instead of placing them between parentheses in a comma-separated list, as is usually the case with tuples. For example, the expression $(a, 2, s, 1, l)$ is written as $a2swl$.
+>>Expressions are usually written by listing their symbols directly, instead of placing them between parentheses in a comma-separated list, as is usually the case with tuples. For example, the expression $(a, 2, s, s, 1,w)$ is written as $a2ss1w$.
 >>
 >>
 >
