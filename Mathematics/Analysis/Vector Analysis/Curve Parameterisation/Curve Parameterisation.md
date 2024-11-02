@@ -9,6 +9,6 @@
 >
 >>[!NOTE]
 >>
->>The [image](../../../Set%20Theory/Functions/Function.md) of $\gamma$ is a [curve](../../../Topology/Curves/Curve.md) in $\mathbb{R}^n$.
+>>The [image](../../Functions/Function.md) of $\gamma$ is a [curve](../../../Topology/Curves/Curve.md) in $\mathbb{R}^n$.
 >>
 >

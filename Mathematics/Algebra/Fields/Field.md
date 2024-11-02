@@ -1,32 +1,39 @@
 > [!DEFINITION] Definition: Field
->A **field** $(F, +, \cdot)$ is a [set](../../Set%20Theory/Set.md) $F$ which is equipped with an **addition** $+: F \times F \to F$ and a **multiplication** $\cdot: F \times F \to F$ [operations](../../Set%20Theory/Functions/Function.md) which have the following properties.
-> 
->1. Addition:
->	- Commutativity: $\alpha + \beta = \beta + \alpha \qquad \forall \alpha,\beta \in F$
->	- Associativity: $(\alpha + \beta) + \gamma = \alpha + (\beta + \gamma) \qquad \forall \alpha,\beta,\gamma \in F$
->	- Existence and uniqueness of the additive identity: There is exactly one $0 \in F$ such that $\alpha + 0 = \alpha \qquad \forall \alpha \in F$
->	- Existence and uniqueness of additive inverses: For each $\alpha \in F$ there is exactly one $-\alpha \in F$ such that $\alpha + (-\alpha) = 0$
-> 
->2. Multiplication:
->	- Commutativity: $\alpha \cdot \beta = \beta \cdot \alpha \qquad \forall \alpha,\beta \in F$
->	- Associativity: $(\alpha \cdot \beta) \cdot \gamma = \alpha \cdot (\beta \cdot \gamma) \qquad \forall \alpha,\beta,\gamma \in F$
->	- Existence and uniqueness of the multiplicative identity: There is exactly one $1 \in F$ such that $\alpha \cdot 1 = \alpha \qquad \forall \alpha \in F$
->	- Existence and uniqueness of multiplicative inverses: For each $\alpha \ne 0 \in F$ there is exactly one $\alpha^{-1} \in F$ mit $\alpha \cdot \alpha^{-1} = 1$
-> 
->3. Distributive Law:
->$$\alpha\cdot(\beta + \gamma) = \alpha\cdot \beta + \alpha \cdot \gamma \qquad \forall \alpha,\beta,\gamma \in F$$
-
->[!THEOREM] Theorem: Multiplication with the Additive Identity
->Multiplying any element $\alpha$ of a [field](Field.md) $(F,+,\cdot)$ with its additive identity $0$ results in the additive identity.
+>A **field** $(F, +, \cdot)$ is an [integral domain](../Rings/Commutative%20Rings/Integral%20Domains/Integral%20Domain.md) where each nonzero element has a multiplicative inverse, i.e. for each $a \in F, a\ne 0$ there exists an element $a^{-1} \in F$ such that
 >
->$$\alpha \cdot 0 = 0 \qquad \forall \alpha \in F$$
+>$$a \cdot a^{-1} = a^{-1} \cdot a = 1$$
 >
->>[!PROOF]-
->>$$\alpha \cdot 0 = \alpha \cdot (0 + 0) = \alpha\cdot 0 + \alpha\cdot 0$$
->>$$\alpha \cdot 0 = \alpha \cdot 0 + \alpha \cdot 0$$
->>$$(\alpha \cdot 0) + (-\alpha \cdot 0) = (\alpha \cdot 0) + (\alpha \cdot 0) + (-\alpha \cdot 0)$$
->>$$0 = \alpha \cdot 0$$
-
->[!THEOREM] 
->Every field is also a [commutative](../Rings/Commutative%20Ring.md) [ring](../Rings/Ring.md).
->>[!PROOF]-
+>>[!THEOREM]- Theorem: Uniqueness of Multiplicative Inverses
+>>
+>>The multiplicative inverse of an element $a$ in a [field](Field.md) is unique.
+>>
+>>>[!PROOF]-
+>>>
+>>>Suppose there were two multiplicative inverses $a^{-1}$ and $a^{-1}{'}$.
+>>>
+>>>Since $a^{-1}$ is a multiplicative inverse, we have
+>>>
+>>>$$a \cdot a^{-1} = 1$$
+>>>
+>>>Similarly, since $a^{-1}{'}$ is a multiplicative inverse, we have
+>>>
+>>>$$a \cdot a^{-1}{'} = 1$$
+>>>
+>>>Combining the two equations, we obtain
+>>>
+>>>$$a \cdot a^{-1} = a \cdot a^{-1}{'}$$
+>>>
+>>>Multiply both sides by $a^{-1}$ - it does not matter whether we multiply from the left or from the right, since multiplication in integral domains is commutative.
+>>>
+>>>$$a^{-1} \cdot (a \cdot a^{-1}) = a^{-1} \cdot (a \cdot a^{-1}{'})$$
+>>>
+>>>We now avail ourselves of the associativity of multiplication.
+>>>
+>>>$$(a^{-1} \cdot a) \cdot a^{-1} = (a^{-1} \cdot a) \cdot a^{-1}{'}$$
+>>>
+>>>$$1 \cdot a^{-1} = 1 \cdot a^{-1}{'}$$
+>>>
+>>>$$a^{-1} = a^{-1}{'}$$
+>>>
+>>
+>

@@ -22,7 +22,7 @@
 
 >[!THEOREM] Theorem: Linearity of the Inverse Transformation
 >
->If $T$ is a [bijective](../../../Set%20Theory/Functions/Injection,%20Surjection,%20Bijection.md) [linear transformation](Linear%20Transformation.md), then its [inverse](../../../Set%20Theory/Functions/Inverse%20Function.md) $T^{-1}$ is also a [bijective](../../../Set%20Theory/Functions/Injection,%20Surjection,%20Bijection.md) [linear transformation](Linear%20Transformation.md).
+>If $T$ is a [bijective](../../../Analysis/Functions/Injection,%20Surjection,%20Bijection.md) [linear transformation](Linear%20Transformation.md), then its [inverse](../../../Analysis/Functions/Inverse%20Function.md) $T^{-1}$ is also a [bijective](../../../Analysis/Functions/Injection,%20Surjection,%20Bijection.md) [linear transformation](Linear%20Transformation.md).
 >
 >>[!PROOF]-
 >>

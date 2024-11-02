@@ -1,2 +1,0 @@
->[!DEFINITION] Definition: Polygon
->

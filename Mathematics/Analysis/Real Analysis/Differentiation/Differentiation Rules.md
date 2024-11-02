@@ -22,7 +22,7 @@
 >>
 
 >[!THEOREM] Theorem: Derivative of the Inverse Function
->Let $f: D \subseteq \mathbb{R} \to \mathbb{R}$ be [invertible](../../../Set%20Theory/Functions/Inverse%20Function.md).
+>Let $f: D \subseteq \mathbb{R} \to \mathbb{R}$ be [invertible](../../Functions/Inverse%20Function.md).
 >
 >If $f$ is [differentiable](Differentiability%20of%20Real%20Functions.md) at $f^{-1}(y), y \in f(D)$ and $f'(f^{-1}(y)) \ne 0$, then
 >
