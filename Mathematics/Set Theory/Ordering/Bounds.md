@@ -1,4 +1,5 @@
 >[!DEFINITION] Definition: Upper Bound
+>
 >Let $T$ be a [subset](../../Subset.md) of a [partially ordered](Partial%20Order.md) [set](../../Set.md) $S$.
 >
 >An element $u \in S$ is called an **upper bound** of $T$ if
@@ -13,9 +14,16 @@
 >>$$u \le \sup (T) \qquad \forall u \in U$$
 >>
 >>>[!THEOREM] Theorem: Uniqueness of the Supremum
+>>>
 >>>There is only one supremum of $T$.
+>>>
 >>>>[!PROOF]-
 >>>>
+>>>>TODO
+>>>>
+>>>
+>>
+>
 
 >[!DEFINITION] Definition: Lower Bound
 >Let $T$ be a [subset](../../Subset.md) of a [partially ordered](Partial%20Order.md) [set](../../Set.md) $S$.
@@ -35,7 +43,10 @@
 >>>>[!PROOF]-
 
 >[!DEFINITION] Definition: Bounded Sets
+>
 >A [partially ordered](Partial%20Order.md) [set](../../Set.md) is:
 >- **bounded above** if it has an upper bound;
 >- **bounded below** if it has a lower bound;
 >- **bound** if it has both an upper and a lower bound.
+>
+>^boundedset

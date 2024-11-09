@@ -1,6 +1,6 @@
 >[!THEOREM] Theorem: Surface Integrals of Scalar Fields
 >
->Let $f: D \subseteq \mathbb{R}^3 \to \mathbb{R}$ be a [real scalar field](../Real%20Scalar%20Field.md) and $\mathcal{S} \subseteq D$ be a [surface](../../../../Topology/Surfaces/Surface.md).
+>Let $f: D \subseteq \mathbb{R}^3 \to \mathbb{R}$ be a [real scalar field](../Real%20Scalar%20Field.md) and $\mathcal{S} \subseteq D$ be a [surface](../../../../Geometry/Euclidean%20Geometry/Surfaces/Surface.md).
 >
 >If $f$ is [continuous](../Continuity%20of%20Real%20Scalar%20Fields.md), then for all [smooth surface parameterisations](../../Surface%20Parameterisations/Smoothness%20of%20Surface%20Parameterisations.md) $\phi: D_\phi \subseteq \mathbb{R}^2 \to \mathbb{R}^3$ and $\psi: D_\psi \subseteq \mathbb{R}^2 \to \mathbb{R}^3$ of $\mathcal{S}$ the following [double integrals](Double%20Integral%20of%20a%20Real%20Scalar%20Field.md) are equal:
 >
@@ -13,7 +13,7 @@
 >
 >>[!DEFINITION] Definition: Surface Integral of a Scalar Field
 >>
->>Let $f: D \subseteq \mathbb{R}^3 \to \mathbb{R}$ be a [continuous](../Continuity%20of%20Real%20Scalar%20Fields.md) [real scalar field](../Real%20Scalar%20Field.md) and $\mathcal{S} \subseteq D$ be a [surface](../../../../Topology/Surfaces/Surface.md) with a [smooth parameterisation](../../Surface%20Parameterisations/Smoothness%20of%20Surface%20Parameterisations.md) $\phi: D_\phi \subseteq \mathbb{R}^2 \to \mathbb{R}^3$.
+>>Let $f: D \subseteq \mathbb{R}^3 \to \mathbb{R}$ be a [continuous](../Continuity%20of%20Real%20Scalar%20Fields.md) [real scalar field](../Real%20Scalar%20Field.md) and $\mathcal{S} \subseteq D$ be a [surface](../../../../Geometry/Euclidean%20Geometry/Surfaces/Surface.md) with a [smooth parameterisation](../../Surface%20Parameterisations/Smoothness%20of%20Surface%20Parameterisations.md) $\phi: D_\phi \subseteq \mathbb{R}^2 \to \mathbb{R}^3$.
 >>
 >>The **surface integral** of $f$ over $\mathcal{S}$ is the [double integral](Double%20Integral%20of%20a%20Real%20Scalar%20Field.md)
 >>

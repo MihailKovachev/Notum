@@ -1,8 +1,8 @@
 >[!THEOREM] Theorem: Line Integral of a Scalar Field
 >
->Let $f: D \subseteq \mathbb{R}^n \to \mathbb{R}$ be a [real scalar field](../Real%20Scalar%20Field.md) and $\mathcal{C} \subset D$ be a [curve](../../../../Topology/Curves/Curve.md).
+>Let $f: D \subseteq \mathbb{R}^n \to \mathbb{R}$ be a [real scalar field](../Real%20Scalar%20Field.md) and $\mathcal{C} \subset D$ be a [curve](../../../../Geometry/Euclidean%20Geometry/Curves/Curve.md).
 >
->For all [piecewise continuously differentiable](../../Real%20Vector%20Functions/Differentiation/Partial%20Derivatives%20of%20Real%20Vector%20Functions.md) [parameterisations](../../Curve%20Parameterisation/Curve%20Parameterisation.md) $\gamma: [a;b] \to D$ and $\varphi: [c;d] \to D$ of $\mathcal{C}$, the following [definite integrals](../../../Real%20Analysis/Integration/Definite%20Integrals/Definite%20Integral.md) are equal:
+>For all [piecewise continuously differentiable](../../Real%20Vector%20Functions/Differentiation/Partial%20Derivatives%20of%20Real%20Vector%20Functions.md) [parameterisations](../../Curve%20Parameterisations/Curve%20Parameterisation.md) $\gamma: [a;b] \to D$ and $\varphi: [c;d] \to D$ of $\mathcal{C}$, the following [definite integrals](../../../Real%20Analysis/Integration/Definite%20Integrals/Definite%20Integral.md) are equal:
 >
 >$$\int_a^b f(\gamma(t))\, ||\dot\gamma (t)||\mathop{\mathrm{d}t} = \int_c^d f(\varphi(t))\, ||\dot\varphi (t)||\mathop{\mathrm{d}t}$$
 >
@@ -10,15 +10,15 @@
 >>
 >>We will just show this for the case when $\gamma$ and $\varphi$ are *not* piecewise, since the proof is easily generalisable - if $\gamma$ and $\varphi$ *are* piecewise, then one can just apply the following proof to each of their partitions and obtain the same end result after summing the results from each partition.
 >>
->>Since $\gamma$ and $\varphi$ parameterise the same curve $\mathcal{C}$, we can [reparameterise](../../../../Topology/Curves/Curve.md) one in the other. More specifically, there exists a [bijective](../../../Functions/Injection,%20Surjection,%20Bijection.md), [continuously differentiable function](../../../Real%20Analysis/Differentiation/Differentiability%20of%20Real%20Functions.md) $u: [a;b] \to [c;d]$ such that
+>>Since $\gamma$ and $\varphi$ parameterise the same curve $\mathcal{C}$, we can [reparameterise](../../../../Geometry/Euclidean%20Geometry/Curves/Curve.md) one in the other. More specifically, there exists a [bijective](../../../Functions/Injection,%20Surjection,%20Bijection.md), [continuously differentiable function](../../../Real%20Analysis/Differentiation/Differentiability%20of%20Real%20Functions.md) $u: [a;b] \to [c;d]$ such that
 >>
 >>$$\varphi(u(t)) = \gamma (t)$$
 >>
->>The [chain rule](../../Curve%20Parameterisation/Differentiation/Differentiation%20Rules%20for%20Curve%20Parameterisations.md#^chainrule) then gives us
+>>The [chain rule](../../Curve%20Parameterisations/Differentiation/Differentiation%20Rules%20for%20Curve%20Parameterisations.md#^chainrule) then gives us
 >>
 >>$$\int_a^b f(\gamma(t))\, ||\dot\gamma (t)||\mathop{\mathrm{d}t} = \int_a^b f(\varphi(u(t)))\, ||\dot\varphi (u(t)) u'(t)|| \mathop{\mathrm{d}t} =  \int_a^b f(\varphi(u(t)))\, ||\dot\varphi (u(t))|| \, |u'(t)|\mathop{\mathrm{d}t}$$
 >>
->>If $\gamma$ and $\varphi$ have the [same orientation](../../../../Topology/Curves/Curve.md#^orientation), then $u(a) = c$ and $u(b) = d$. Since $a \lt b, c \lt d$ and $u$ is bijective, $u$ must be [strictly increasing](../../../Real%20Analysis/Functions/Monotony/Monotony%20of%20Real%20Functions.md), i.e. $|u'(t)| = u'(t)$. We thus have
+>>If $\gamma$ and $\varphi$ have the [same orientation](../../../../Geometry/Euclidean%20Geometry/Curves/Curve.md#^orientation), then $u(a) = c$ and $u(b) = d$. Since $a \lt b, c \lt d$ and $u$ is bijective, $u$ must be [strictly increasing](../../../Real%20Analysis/Functions/Monotony/Monotony%20of%20Real%20Functions.md), i.e. $|u'(t)| = u'(t)$. We thus have
 >>
 >>$$\int_a^b f(\varphi(u(t)))\, ||\dot\varphi (u(t))|| \, |u'(t)|\mathop{\mathrm{d}t} = \int_a^b f(\varphi(u(t))) \, ||\dot\varphi (u(t))|| \, u'(t)\mathop{\mathrm{d}t}$$
 >>
@@ -28,7 +28,7 @@
 >>
 >>$$\int_a^b f(\gamma(t))\, ||\dot\gamma (t)||\mathop{\mathrm{d}t} = \int_c^d f(\varphi(u))\, ||\dot \varphi(u)|| \mathop{\mathrm{d}u}$$
 >>
->>We are done with the case where $\gamma$ and $\varphi$ have the same orientation. Now, if $\gamma$ and $\varphi$ have [opposite orientations](../../../../Topology/Curves/Curve.md#^orientation), then $u(a) = d$ and $u(b) = c$. Since $a \lt b, c \lt d$ and $u$ is bijective, $u$ must be [strictly decreasing](../../../Real%20Analysis/Functions/Monotony/Monotony%20of%20Real%20Functions.md), i.e. $|u'(t)| = -u'(t)$. We thus have
+>>We are done with the case where $\gamma$ and $\varphi$ have the same orientation. Now, if $\gamma$ and $\varphi$ have [opposite orientations](../../../../Geometry/Euclidean%20Geometry/Curves/Curve.md#^orientation), then $u(a) = d$ and $u(b) = c$. Since $a \lt b, c \lt d$ and $u$ is bijective, $u$ must be [strictly decreasing](../../../Real%20Analysis/Functions/Monotony/Monotony%20of%20Real%20Functions.md), i.e. $|u'(t)| = -u'(t)$. We thus have
 >>
 >>$$\int_a^b f(\varphi(u(t)))\, ||\dot\varphi (u(t))|| \, |u'(t)|\mathop{\mathrm{d}t} = - \int_a^b f(\varphi(u(t)))\, ||\dot\varphi (u(t))|| \, u'(t)\mathop{\mathrm{d}t}$$
 >>
@@ -43,7 +43,7 @@
 >
 >>[!DEFINITION] Definition: Line Integral of a Scalar Field
 >>
->>Let $f: D \subseteq \mathbb{R}^n \to \mathbb{R}$ be a [real scalar field](../Real%20Scalar%20Field.md) and $\mathcal{C} \subset D$ be a [curve](../../../../Topology/Curves/Curve.md) with a [parameterisation](../../Curve%20Parameterisation/Curve%20Parameterisation.md) $\gamma: [a;b] \to D$. The **line integral** of $f$ over $\mathcal{C}$ is the [definite integral](../../../Real%20Analysis/Integration/Definite%20Integrals/Definite%20Integral.md)
+>>Let $f: D \subseteq \mathbb{R}^n \to \mathbb{R}$ be a [real scalar field](../Real%20Scalar%20Field.md) and $\mathcal{C} \subset D$ be a [curve](../../../../Geometry/Euclidean%20Geometry/Curves/Curve.md) with a [parameterisation](../../Curve%20Parameterisations/Curve%20Parameterisation.md) $\gamma: [a;b] \to D$. The **line integral** of $f$ over $\mathcal{C}$ is the [definite integral](../../../Real%20Analysis/Integration/Definite%20Integrals/Definite%20Integral.md)
 >>
 >>$$\int_a^b f(\gamma(t))\, ||\dot\gamma (t)||\mathop{\mathrm{d}t}$$
 >>
@@ -53,7 +53,7 @@
 >>>
 >>>$$\int_\mathcal{C} f \mathop{\mathrm{d}s}$$
 >>>
->>>If $\mathcal{C}$ is [closed](../../../../Topology/Curves/Closed%20Curve.md), we write
+>>>If $\mathcal{C}$ is [closed](../../../../Geometry/Euclidean%20Geometry/Curves/Paths/Closed%20Path.md), we write
 >>>
 >>>$$\oint_\mathcal{C} f \mathop{\mathrm{d}s}$$
 >>>
@@ -74,7 +74,7 @@
 
 >[!THEOREM] Theorem: Partitioning of the Scalar Line Integral
 >
->Let $f: D \subseteq \mathbb{R}^n \to \mathbb{R}$ be a [real scalar field](../Real%20Scalar%20Field.md) and $\mathcal{C} \subset D$ be a [curve](../../../../Topology/Curves/Curve.md).
+>Let $f: D \subseteq \mathbb{R}^n \to \mathbb{R}$ be a [real scalar field](../Real%20Scalar%20Field.md) and $\mathcal{C} \subset D$ be a [curve](../../../../Geometry/Euclidean%20Geometry/Curves/Curve.md).
 >
 >If $\mathcal{C}$ can be represented as a [union](../../../../Set%20Theory/Operations%20with%20Sets/Union.md) $\mathcal{C} = \mathcal{C}_1 \cup \cdots \cup \mathcal{C}_k$ of finitely many [disjoint](../../../../Set%20Theory/Disjoint%20Sets.md) curves $\mathcal{C}_1, \cdots,\mathcal{C}_k$, then the [line integral](Line%20Integrals%20of%20Scalar%20Fields.md) of $f$ over $\mathcal{C}$ is just the sum of line integrals of $f$ over $\mathcal{C}_1, \cdots,\mathcal{C}_k$:
 >
@@ -88,13 +88,13 @@
 
 >[!THEOREM] Mean value theorem for Scalar Line Integrals
 >
->Let $f: D \subseteq \mathbb{R}^n \to \mathbb{R}$ be a [real scalar field](../Real%20Scalar%20Field.md) and $\mathcal{C} \subset D$ be a [continuous curve](../../../../Topology/Curves/Continuous%20Curve.md).
+>Let $f: D \subseteq \mathbb{R}^n \to \mathbb{R}$ be a [real scalar field](../Real%20Scalar%20Field.md) and $\mathcal{C} \subset D$ be a [curve](../../../../Geometry/Euclidean%20Geometry/Curves/Curve.md).
 >
 >If $f$ is [continuous](../Continuity%20of%20Real%20Scalar%20Fields.md), then there exists a point $\vec{x} \in \mathcal{C}$ on the curve such that the [line integral](../../../../Geometry/Line.md) of $f$ over $\mathcal{C}$ is
 >
 >$$\int_\mathcal{C} f\mathop{\mathrm{d}s} = f(\vec{x})\cdot L$$
 >
->where $L$ is the [length](../../../../Topology/Curves/Arc%20Length.md) of $\mathcal{C}$.
+>where $L$ is the [length](../../../../Geometry/Euclidean%20Geometry/Curves/Paths/Arc%20Length.md) of $\mathcal{C}$.
 >
 >>[!PROOF]-
 >>
