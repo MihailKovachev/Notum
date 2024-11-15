@@ -1,6 +1,6 @@
 >[!DEFINITION] Definition: Congruence
 >
->Two [geometric figures](Geometric%20Figure.md) $G_1$ and $G_2$ are **congruent** if there exists an [isometry](../Topology/Metric%20Spaces/Isometry.md) which maps $G_1$ onto $G_2$.
+>Two [geometric figures](Geometric%20Figure.md) $G_1$ and $G_2$ are **congruent** if there exists an [isometry](../../Topology/Metric%20Spaces/Isometry.md) which maps $G_1$ onto $G_2$.
 >
 >>[!NOTATION]
 >>
@@ -14,7 +14,7 @@
 >
 >>[!THEOREM]
 >>
->>[Congruence](Congruence.md) is an [equivalence relation](../Set%20Theory/Relations/Equivalence%20Relation.md).
+>>[Congruence](Congruence.md) is an [equivalence relation](../../Set%20Theory/Relations/Equivalence%20Relation.md).
 >>
 >>>[!PROOF]-
 >>>

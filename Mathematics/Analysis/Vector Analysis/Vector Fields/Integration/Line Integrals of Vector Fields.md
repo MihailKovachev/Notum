@@ -47,7 +47,7 @@
 >>>
 >>>$$\int_\mathcal{C} \boldsymbol{v} \cdot \mathop{\mathrm{d}\boldsymbol{s}}$$
 >>>
->>>If $\mathcal{C}$ is [closed](../../../../Geometry/Euclidean%20Geometry/Curves/Paths/Closed%20Path.md), we write
+>>>If $\mathcal{C}$ is [closed](../../../../Geometry/Euclidean%20Geometry/Curves/Closed%20Curve.md), we write
 >>>
 >>>$$\oint_\mathcal{C} \boldsymbol{v} \cdot \mathop{\mathrm{d}\boldsymbol{s}}$$
 >>>

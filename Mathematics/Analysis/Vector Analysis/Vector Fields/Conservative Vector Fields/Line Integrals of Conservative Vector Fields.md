@@ -36,7 +36,7 @@
 
 >[!THEOREM] Theorem: Line Integrals of Conservative Vector Fields over Closed Curves
 >
->A [continuous](../../Real%20Vector%20Functions/Continuity%20of%20Real%20Vector%20Functions.md) [vector field](../Real%20Vector%20Field.md) $\boldsymbol{v}: D\subseteq \mathbb{R}^n \to \mathbb{R}^n$ is [conservative](Conservative%20Vector%20Field.md) if and only if its [line integral](../Integration/Line%20Integrals%20of%20Vector%20Fields.md) over every [closed curve](../../../../Geometry/Euclidean%20Geometry/Curves/Paths/Closed%20Path.md) $\mathcal{C} \subseteq D$ is always zero.
+>A [continuous](../../Real%20Vector%20Functions/Continuity%20of%20Real%20Vector%20Functions.md) [vector field](../Real%20Vector%20Field.md) $\boldsymbol{v}: D\subseteq \mathbb{R}^n \to \mathbb{R}^n$ is [conservative](Conservative%20Vector%20Field.md) if and only if its [line integral](../Integration/Line%20Integrals%20of%20Vector%20Fields.md) over every [closed curve](../../../../Geometry/Euclidean%20Geometry/Curves/Closed%20Curve.md) $\mathcal{C} \subseteq D$ is always zero.
 >
 >$$\oint_\mathcal{C} \boldsymbol{v} \cdot \mathop{\mathrm{d}\boldsymbol{s}} = 0$$
 >

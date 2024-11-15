@@ -53,7 +53,7 @@
 >>>
 >>>$$\int_\mathcal{C} f \mathop{\mathrm{d}s}$$
 >>>
->>>If $\mathcal{C}$ is [closed](../../../../Geometry/Euclidean%20Geometry/Curves/Paths/Closed%20Path.md), we write
+>>>If $\mathcal{C}$ is [closed](../../../../Geometry/Euclidean%20Geometry/Curves/Closed%20Curve.md), we write
 >>>
 >>>$$\oint_\mathcal{C} f \mathop{\mathrm{d}s}$$
 >>>
@@ -94,7 +94,7 @@
 >
 >$$\int_\mathcal{C} f\mathop{\mathrm{d}s} = f(\vec{x})\cdot L$$
 >
->where $L$ is the [length](../../../../Geometry/Euclidean%20Geometry/Curves/Paths/Arc%20Length.md) of $\mathcal{C}$.
+>where $L$ is the [length](../../../../Geometry/Euclidean%20Geometry/Curves/Arcs/Arc%20Length.md) of $\mathcal{C}$.
 >
 >>[!PROOF]-
 >>
