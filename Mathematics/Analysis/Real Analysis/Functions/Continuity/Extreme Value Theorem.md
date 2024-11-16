@@ -1,5 +1,5 @@
 >[!THEOREM] The Extreme Value Theorem
->Let $f: D \subseteq \mathbb{R} \to \mathbb{R}$ be a [real-valued function](../Real-Valued%20Function.md) on a closed interval $D = [a;b]$.
+>Let $f: D \subseteq \mathbb{R} \to \mathbb{R}$ be a [real-valued function](../../Real-Valued%20Function.md) on a closed interval $D = [a;b]$.
 >
 >If $f$ is [continuous](Continuity.md) on $D$, then there exist at least one $x_{\text{of min}} \in D$ and at least one $x_{\text{of max}} \in D$ such that
 >

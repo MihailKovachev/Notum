@@ -1,5 +1,5 @@
 >[!DEFINITION] Definition: Improper Integrals
->An **improper integral** is a [definite integral](Definite%20Integrals/Definite%20Integral.md) for a [real function](../../Functions/Real-Valued%20Function.md) $f: D \subseteq \mathbb{R} \to \mathbb{R}$ on an open or a semi-open interval $D$:
+>An **improper integral** is a [definite integral](Definite%20Integrals/Definite%20Integral.md) for a [real function](../../Real-Valued%20Function.md) $f: D \subseteq \mathbb{R} \to \mathbb{R}$ on an open or a semi-open interval $D$:
 >- If $D = [a;b)$ where $a, b \in \mathbb{R}$, the improper integral is defined through the [left-sided limit](../../Functions/Limits%20of%20Functions/One-Sided%20Limits%20of%20a%20Function.md)
 >
 >$$\int_a^b f(x) \mathop{\mathrm{d}x} \overset{\text{def}}{=} \lim_{\beta \to b^-} \int_a^\beta f(x) \mathop{\mathrm{d}x}$$

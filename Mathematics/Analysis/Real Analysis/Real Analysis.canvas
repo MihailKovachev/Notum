@@ -34,7 +34,7 @@
 		{"id":"a9c7644856f40efe","type":"file","file":"Analysis/Real Analysis/Integration/Definite Integrals/Riemann Sum.md","x":-4340,"y":-166,"width":466,"height":726,"color":"1"},
 		{"id":"ae95bc601efac742","type":"file","file":"Analysis/Real Analysis/Integration/Definite Integrals/Definite Integral.md","x":-3154,"y":-166,"width":550,"height":920,"color":"1"},
 		{"id":"58ee189562086781","type":"file","file":"Analysis/Real Analysis/Integration/Definite Integrals/Improper Integrals.md","x":-2540,"y":-163,"width":574,"height":915,"color":"1"},
-		{"id":"981ced1010f63278","type":"file","file":"Analysis/Real Analysis/Functions/Real-Valued Function.md","x":462,"y":-120,"width":466,"height":228,"color":"1"},
+		{"id":"981ced1010f63278","type":"file","file":"Analysis/Real Analysis/Real-Valued Function.md","x":462,"y":-120,"width":466,"height":228,"color":"1"},
 		{"id":"b0a9dbc9af1b7037","type":"file","file":"Analysis/Real Analysis/Real Analysis.md","x":454,"y":-400,"width":482,"height":194,"color":"1"},
 		{"id":"35917a8f5607ac0c","type":"file","file":"Analysis/Real Analysis/Functions/Real Function.md","x":-200,"y":-120,"width":462,"height":246,"color":"1"},
 		{"id":"9d304986fe1e490e","type":"file","file":"Analysis/Real Analysis/Integration/Indefinite Integrals/Integration.md","x":-5956,"y":536,"width":487,"height":230,"color":"1"},
@@ -61,7 +61,7 @@
 		{"id":"b5086d801ccd9829","type":"file","file":"Analysis/Real Analysis/Functions/Extrema/Global Extrema.md","x":-1926,"y":3852,"width":521,"height":1561,"color":"1"},
 		{"id":"fbd830e3e2b30ede","type":"file","file":"Analysis/Real Analysis/Functions/Monotony/Criteria for Monotony.md","x":-1660,"y":2330,"width":594,"height":412,"color":"5"},
 		{"id":"6c64ea5c7f291d1e","type":"file","file":"Analysis/Real Analysis/Functions/Monotony/Integrability of Monotone Functions.md","x":-1560,"y":2782,"width":394,"height":358,"color":"5"},
-		{"id":"ceb56b2f10901740","type":"file","file":"Analysis/Real Analysis/Functions/Function Parity.md","x":-920,"y":2505,"width":426,"height":511,"color":"1"},
+		{"id":"ceb56b2f10901740","type":"file","file":"Analysis/Real Analysis/Functions/Parity/Function Parity.md","x":-920,"y":2505,"width":426,"height":511,"color":"1"},
 		{"id":"1237d48a1d15032a","type":"file","file":"Analysis/Real Analysis/Functions/Extrema/Local Extrema.md","x":-1325,"y":3852,"width":405,"height":1100,"color":"1"},
 		{"id":"31f0d5640b0f7751","type":"file","file":"Analysis/Real Analysis/Functions/Extrema/Finding Extrema.md","x":-1325,"y":5033,"width":972,"height":549,"color":"#0000ff"},
 		{"id":"c8ea5b14451c50e2","type":"file","file":"Analysis/Real Analysis/Functions/Extrema/Criteria for Local Extrema.md","x":-845,"y":3882,"width":760,"height":1041,"color":"5"}

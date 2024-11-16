@@ -1,6 +1,6 @@
 >[!DEFINITION] Definition: Global Minimum
 >
->Let $f: D \to \mathbb{R}$ be a [real-valued function](../Real-Valued%20Function.md).
+>Let $f: D \to \mathbb{R}$ be a [real-valued function](../../Real-Valued%20Function.md).
 >
 >We say that $f$ **has a global minimum at** $x_0 \in D$ if
 >
@@ -14,7 +14,7 @@
 
 >[!DEFINITION] Definition: Global Maximum
 >
->Let $f: D \to \mathbb{R}$ be a [real-valued function](../Real-Valued%20Function.md).
+>Let $f: D \to \mathbb{R}$ be a [real-valued function](../../Real-Valued%20Function.md).
 >
 >We say that $f$ **has a global maximum at** $x_0 \in D$ if
 >
