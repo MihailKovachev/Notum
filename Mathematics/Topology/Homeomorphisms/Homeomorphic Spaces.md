@@ -9,7 +9,7 @@
 >
 >>[!THEOREM] Theorem
 >>
->>The existence of a [homeomorphism](Homeomorphism.md) is an [equivalence relation](../../Set%20Theory/Relations/Equivalence%20Relation.md).
+>>The existence of a [homeomorphism](Homeomorphism.md) is an [equivalence relation](../../../Set%20Theory/Relations/Equivalence%20Relation.md).
 >>
 >>>[!PROOF]-
 >>>

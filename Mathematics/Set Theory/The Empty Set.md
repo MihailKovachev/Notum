@@ -15,8 +15,15 @@
 >>is vacuously true. Therefore, the [Axiom of Extensionality](Axiom%20of%20Extensionality.md) holds and so $A = B$.
 
 >[!THEOREM] Theorem
+>
 >The empty set is a [subset](Subset.md) of all [sets](Set.md).
+>
 >>[!PROOF]-
+>>
 >>Let $A$ be a set.
 >>
 >>Suppose that the empty set $\varnothing$ is *not* a subset of $A$. Then there must exist an element $e \in \varnothing$ which is not an element of $A$, i.e. $e \notin A$. This is a contradiction, since the empty set contains no elements.
+>>
+>
+>^empty-set-is-subsets-of-every-set
+>

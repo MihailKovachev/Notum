@@ -28,7 +28,7 @@
 >$$\tan f(x) = \tan g(x)$$
 >
 >Requirements:
->- $f(x),g(x) \ne \frac{2k+1}{2}\uppi \qquad k \in \mathbb{Z}$
+>- $f(x),g(x) \ne \frac{\uppi}{2} + k\uppi \qquad k \in \mathbb{Z}$
 >
 >Solution:
 >

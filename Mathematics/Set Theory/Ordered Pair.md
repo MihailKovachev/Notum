@@ -1,5 +1,5 @@
 >[!DEFINITION] Definition: Ordered Pair
->The **ordered pair** $(a;b)$ of two objects $a$ and $b$ is the [set system](Set%20Systems/Set%20System.md)
+>The **ordered pair** $(a;b)$ of two objects $a$ and $b$ is the [set system](Collections/Collection.md)
 >
 >$$(a;b) \overset{\text{def}}{=} \{\{a\},\{a,b\}\}$$
 

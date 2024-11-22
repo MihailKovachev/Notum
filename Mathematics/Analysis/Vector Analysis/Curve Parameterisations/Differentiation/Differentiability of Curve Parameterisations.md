@@ -33,7 +33,7 @@
 
 >[!TIP] Tip: Piecewise Smoothness of Curve Parameterisations
 >
->A [curve parameterisation](../Curve%20Parameterisation.md) $\gamma: I \subseteq \mathbb{R} \to \mathbb{R}^n$ is **piecewise smooth** if $I$ can be expressed as a [union](../../../../Set%20Theory/Set%20Systems/Union%20of%20a%20Set%20System.md) of a finite [collection](../../../../Set%20Theory/Set%20Systems/Set%20System.md) of [intervals](../../../../Set%20Theory/Ordering/Intervals.md) $I = I_1 \cup \cdots \cup I_p$ such that the [restrictions](../../../Functions/Restriction.md) $\gamma \big|_{I_1}, \ldots, \gamma \big|_{I_n}$ are [smooth](Differentiability%20of%20Curve%20Parameterisations.md#^smoothness).
+>A [curve parameterisation](../Curve%20Parameterisation.md) $\gamma: I \subseteq \mathbb{R} \to \mathbb{R}^n$ is **piecewise smooth** if $I$ can be expressed as a [union](../../../../Set%20Theory/Collections/Union%20of%20a%20Collection.md) of a finite [collection](../../../../Set%20Theory/Collections/Collection.md) of [intervals](../../../../Set%20Theory/Ordering/Intervals.md) $I = I_1 \cup \cdots \cup I_p$ such that the [restrictions](../../../Functions/Restriction.md) $\gamma \big|_{I_1}, \ldots, \gamma \big|_{I_n}$ are [smooth](Differentiability%20of%20Curve%20Parameterisations.md#^smoothness).
 >
 >^piecewise-smoothness
 >

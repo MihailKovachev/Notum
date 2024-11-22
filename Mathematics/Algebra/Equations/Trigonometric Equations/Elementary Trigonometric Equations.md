@@ -1,11 +1,10 @@
 >[!ALGORITHM]- Algorithm: Solving Equations of the Form $\sin x = c$
 >
 >$$\sin x = c$$
->
->Requirements:
->- $c \in [-1;1]$
 > 
 >Solutions:
+>- If $|c| \gt 1$, then $x \in \varnothing$.
+>- If $c \in [-1;1]$, then
 >
 >$$\begin{align}x &= \arcsin c + 2k \uppi \\ x &= -\arcsin c + (2k+1)\uppi \end{align} \qquad k \in \mathbb{Z}$$
 >
@@ -14,10 +13,9 @@
 >
 >$$\cos x = c$$
 >
->Requirements:
->- $c \in [-1;1]$
-> 
 >Solutions:
+>- If $|c| \gt 1$, then $x \in \varnothing$.
+>- If $c \in [-1;1]$, then
 >
 >$$x =\pm \arccos c +  2k\uppi \qquad k \in \mathbb{Z}$$
 >
@@ -27,7 +25,7 @@
 >$$\tan x = c$$
 >
 >Requirements:
->- $x \ne \frac{2k+1}{2}\uppi \qquad k \in \mathbb{Z}$
+>- $x \ne \frac{\uppi}{2} + k\uppi \qquad k \in \mathbb{Z}$
 >
 >Solution:
 >
