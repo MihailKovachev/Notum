@@ -2,12 +2,12 @@
 >
 >Let $(M, d)$ be a [metric space](Metric%20Space.md).
 >
->The **open ball** of radius $r$ around a given $m \in M$ is the [set](../../../Set%20Theory/Set.md)  of all elements in $M$ which are a [distance](Metric%20Space.md) less than $r$ from $m$.
+>The **open ball** of radius $r$ around a given $x \in M$ is the [set](../../../Set%20Theory/Set.md) of all elements in $M$ which are a [distance](Metric%20Space.md) less than $r$ from $m$.
 >
->$$\{m' \in M \mid d(m, m') \lt r\}$$
+>$$\{x \in M \mid d(x, m)  \lt r\}$$
 >
->>[!NOTATION]
+>>[!NOTATION]-
 >>
->>$$B_r(m) \qquad B(m, r)$$
+>>$$B_r(x) \qquad B(x, r)$$
 >>
 >

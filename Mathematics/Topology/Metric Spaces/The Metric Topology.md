@@ -2,16 +2,20 @@
 >
 >Let $(M,d)$ be a [metric space](Metric%20Space.md).
 >
->The [collection](../../../Set%20Theory/Collections/Collection.md) of all [open balls](Open%20Ball.md) in $M$ forms a [basis](../Bases/Base%20for%20a%20Topology.md) for a [topology](../Topology.md) on $M$.
+>The [collection](../../../Set%20Theory/Collections/Collection.md) of all [open balls](Open%20Ball.md) in $M$ forms a [base](../Bases/Base%20for%20a%20Topological%20Space.md) $(M, \tau_d)$.
 >
 >>[!PROOF]-
 >>
 >>
 >>
 >
+>>[!DEFINITION] Definition: Metric Topology
+>>
+>>The [topology](../Topology.md) $\tau_d$ is known as the **metric topology** induced on $M$ by $d$.
+>>
 >
 
->[!THEOREM] Theorem: Open Sets in the Metric Topology
+>[!TIP] Corollary: Open Sets in the Metric Topology
 >
 >Let $(S,d)$ be a [metric space](Metric%20Space.md) and let $\tau$ be the [topology](The%20Metric%20Topology.md) induced on it by $d$.
 >
@@ -19,7 +23,7 @@
 >
 >>[!PROOF]-
 >>
->>TODO
+>>This follows directly from [topology generation](../Bases/Topology%20Generation.md).
 >>
 >
 >^opensets
