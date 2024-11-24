@@ -2,26 +2,26 @@
 >
 >Let $(X, \tau)$ be a [topological space](../Topological%20Space.md) and let $\mathcal{B}$ be a [base](Base%20for%20a%20Topological%20Space.md) for $(X, \tau)$.
 >
->A [subset](../../../Set%20Theory/Subset.md) $U \subseteq X$ is [open](../Open%20Sets/Open%20Subset.md) if and only if for each $u \in U$ there exists some $B \in \mathcal{B}$ such that $B \subseteq U$ and $u \in B$.
+>A [subset](../../../Set%20Theory/Subset.md) $U \subseteq X$ is [open](../Topologies/Open%20Subset.md) if and only if for each $u \in U$ there exists some $B \in \mathcal{B}$ such that $B \subseteq U$ and $u \in B$.
 >
 >>[!PROOF]-
 >>
 >>We need to prove two things separately:
->>- (I) If $U$ is [open](../Open%20Sets/Open%20Subset.md), then for each $u \in U$ there exists some $B_u \in \mathcal{B}$ such that $B_u \subseteq U$ and $u \in B_u$.
->>- (II) If for each $u \in U$ there exists some $B \in \mathcal{B}$ such that $B \subseteq U$ and $u \in B$, then $U$ is [open](../Open%20Sets/Open%20Subset.md).
+>>- (I) If $U$ is [open](../Topologies/Open%20Subset.md), then for each $u \in U$ there exists some $B_u \in \mathcal{B}$ such that $B_u \subseteq U$ and $u \in B_u$.
+>>- (II) If for each $u \in U$ there exists some $B \in \mathcal{B}$ such that $B \subseteq U$ and $u \in B$, then $U$ is [open](../Topologies/Open%20Subset.md).
 >>
 >>**Proof of (I):**
 >>
->>Suppose $U$ is [open](../Open%20Sets/Open%20Subset.md). The fact that for each $u \in U$ there exists some $B_u \in \mathcal{B}$ such that $B_u \subseteq U$ and $u \in B_u$ follows immediately from the [base criterion](Base%20for%20a%20Topological%20Space.md).
+>>Suppose $U$ is [open](../Topologies/Open%20Subset.md). The fact that for each $u \in U$ there exists some $B_u \in \mathcal{B}$ such that $B_u \subseteq U$ and $u \in B_u$ follows immediately from the [base criterion](Base%20for%20a%20Topological%20Space.md).
 >>
 >>**Proof of (II):**
 >>
->>Suppose that for each $u \in U$ there exists some $B \in \mathcal{B}$ such that $B \subseteq U$ and $u \in B$. Since $u$ is contained in $B_u$ and $B_u \subseteq U$, we know that $U = \bigcup_{u \in U} B_u$, i.e. $U$ is a [union](../../../Set%20Theory/Operations%20with%20Sets/Union.md) of [open subsets](../Open%20Sets/Open%20Subset.md) and is thus [open](../Open%20Sets/Open%20Subset.md).
+>>Suppose that for each $u \in U$ there exists some $B \in \mathcal{B}$ such that $B \subseteq U$ and $u \in B$. Since $u$ is contained in $B_u$ and $B_u \subseteq U$, we know that $U = \bigcup_{u \in U} B_u$, i.e. $U$ is a [union](../../../Set%20Theory/Operations%20with%20Sets/Union.md) of [open subsets](../Topologies/Open%20Subset.md) and is thus [open](../Topologies/Open%20Subset.md).
 >>
 >
 >>[!INTUITION]
 >>
->>This theorems allows us to determine the [topology](../Topology.md) $\tau$ given only a [base](Base%20for%20a%20Topological%20Space.md) for it.
+>>This theorems allows us to determine the [topology](../Topologies/Topology.md) $\tau$ given only a [base](Base%20for%20a%20Topological%20Space.md) for it.
 >>
 >
 >^topology-generation

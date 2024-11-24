@@ -2,7 +2,7 @@
 >
 >Let $(S, \tau)$ be a [topological space](Topological%20Space.md).
 >
->A [subset](../../Set%20Theory/Subset.md) $U$ of $S$ is **closed** if its [complement](../../Set%20Theory/Complement.md) $S \setminus U$ is an [open set](../Open%20Sets/Open%20Subset.md).
+>A [subset](../../Set%20Theory/Subset.md) $U$ of $S$ is **closed** if its [complement](../../Set%20Theory/Complement.md) $S \setminus U$ is an [open set](../Topologies/Open%20Subset.md).
 >
 >>[!THEOREM]
 >>
@@ -36,7 +36,7 @@
 >
 >>[!PROOF]-
 >>
->>Let $S_1,\cdots,S_n$ be closed sets. We need to show that $\bigcup \{S_1,\cdots, S_n\} = S_1 \cup \cdots \cup S_n$ is closed. According to the definition of a closed set, this means we must show that $S \setminus (S_1 \cup \cdots \cup S_n)$ is [open](../Open%20Sets/Open%20Subset.md).
+>>Let $S_1,\cdots,S_n$ be closed sets. We need to show that $\bigcup \{S_1,\cdots, S_n\} = S_1 \cup \cdots \cup S_n$ is closed. According to the definition of a closed set, this means we must show that $S \setminus (S_1 \cup \cdots \cup S_n)$ is [open](../Topologies/Open%20Subset.md).
 >>
 >>By the [distributive law](../../Set%20Theory/Operations%20with%20Sets/Distributive%20Laws%20for%20Set%20Operations.md)
 >>

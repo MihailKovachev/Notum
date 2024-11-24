@@ -11,7 +11,7 @@
 >
 >>[!DEFINITION] Definition: Metric Topology
 >>
->>The [topology](../Topology.md) $\tau_d$ is known as the **metric topology** induced on $M$ by $d$.
+>>The [topology](../Topologies/Topology.md) $\tau_d$ is known as the **metric topology** induced on $M$ by $d$.
 >>
 >
 
@@ -19,7 +19,7 @@
 >
 >Let $(S,d)$ be a [metric space](Metric%20Space.md) and let $\tau$ be the [topology](The%20Metric%20Topology.md) induced on it by $d$.
 >
->A [subset](../../../Set%20Theory/Subset.md) $U$ of $S$ is [open](../Open%20Sets/Open%20Subset.md) if and only if for each $u \in U$ there exists an [open ball](Open%20Ball.md) $B_\varepsilon (u)$ which is contained entirely in $U$.
+>A [subset](../../../Set%20Theory/Subset.md) $U$ of $S$ is [open](../Topologies/Open%20Subset.md) if and only if for each $u \in U$ there exists an [open ball](Open%20Ball.md) $B_\varepsilon (u)$ which is contained entirely in $U$.
 >
 >>[!PROOF]-
 >>

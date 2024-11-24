@@ -14,7 +14,7 @@
 >
 >>[!PROOF]-
 >>
->>This follows directly from the definition of a [topology](Topology.md).
+>>This follows directly from the definition of a [topology](../Topologies/Topology.md).
 >>
 >
 
@@ -28,7 +28,7 @@
 >>
 >>We consider $n \ge 2$ arbitrary [open subsets](Open%20Subset.md) $U_1,\cdots, U_n$.
 >>
->>For $n = 2$, the definition of the [topology](Topology.md) $\tau$ tells us that $U_1 \cap U_2 \in \tau$.
+>>For $n = 2$, the definition of the [topology](../Topologies/Topology.md) $\tau$ tells us that $U_1 \cap U_2 \in \tau$.
 >>
 >>Now suppose $U' = U_1 \cap \cdots \cap U_{n-1} \in \tau$. We have
 >>

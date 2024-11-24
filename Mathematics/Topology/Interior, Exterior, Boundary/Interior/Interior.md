@@ -2,7 +2,7 @@
 >
 >Let $(X, \tau)$ be a [topological space](Topological%20Space.md).
 >
->The **interior** of a [set](../../../Set%20Theory/Subset.md) $S \subseteq X$ is the [union](../../../Set%20Theory/Collections/Union%20of%20a%20Collection.md) of all [open sets](Open%20Sets/Open%20Subset.md) contained in $S$.
+>The **interior** of a [set](../../../Set%20Theory/Subset.md) $S \subseteq X$ is the [union](../../../Set%20Theory/Collections/Union%20of%20a%20Collection.md) of all [open sets](../../Topologies/Open%20Subset.md) contained in $S$.
 >
 >$$\bigcup\{I \subseteq S \mid I \in \tau \}$$
 >

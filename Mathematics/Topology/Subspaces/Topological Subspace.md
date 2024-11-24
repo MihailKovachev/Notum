@@ -6,7 +6,7 @@
 >
 >$$\tau_S \overset{\text{def}}{=} \{O \cap S \mid O \in \tau_X\}$$
 >
->is a [topology](Topology.md) on $S$.
+>is a [topology](../Topologies/Topology.md) on $S$.
 >
 >>[!PROOF]-
 >>
@@ -25,7 +25,7 @@
 >>
 >>$$\bigcup \mathcal{U} = \bigcup_{U \in \mathcal{U}} (O_U \cap S) = \left(\bigcup_{U \in \mathcal{U}} O_U\right) \cap S$$
 >>
->>Since $\bigcup_{U \in \mathcal{U}} O_U$ is a [union](../../Set%20Theory/Collections/Union%20of%20a%20Collection.md) of [open sets](../Open%20Sets/Open%20Subset.md), it is itself [open](../Open%20Sets/Open%20Subset.md), i.e. $\bigcup_{U \in \mathcal{U}} O_U \in \tau_X$. Therefore $\left(\bigcup_{U \in \mathcal{U}} O_U\right) \cap S$ is in $\tau_S$.
+>>Since $\bigcup_{U \in \mathcal{U}} O_U$ is a [union](../../Set%20Theory/Collections/Union%20of%20a%20Collection.md) of [open sets](../Topologies/Open%20Subset.md), it is itself [open](../Topologies/Open%20Subset.md), i.e. $\bigcup_{U \in \mathcal{U}} O_U \in \tau_X$. Therefore $\left(\bigcup_{U \in \mathcal{U}} O_U\right) \cap S$ is in $\tau_S$.
 >>
 >>**Proof of (III):**
 >>
@@ -33,7 +33,7 @@
 >>
 >>$$U_1 \cap \cdots \cap U_n = (O_1 \cap S) \cap \cdots \cap (O_n \cap S) = (O_1 \cap \cdots \cap O_n) \cap S$$
 >>
->>Since $(O_1 \cap \cdots \cap O_n)$ is an [intersection](../../Set%20Theory/Collections/Intersection%20of%20a%20Collection.md) of finitely many [open sets](../Open%20Sets/Open%20Subset.md), it is itself [open](../Open%20Sets/Open%20Subset.md)^[[The intersection of finitely many open sets is open.](../Open%20Sets/Open%20Subset.md#^Intersection-of-open-sets)]. Therefore, $U_1 \cap \cdots \cap U_n \in \tau_S$.
+>>Since $(O_1 \cap \cdots \cap O_n)$ is an [intersection](../../Set%20Theory/Collections/Intersection%20of%20a%20Collection.md) of finitely many [open sets](../Topologies/Open%20Subset.md), it is itself [open](../Topologies/Open%20Subset.md)^[[The intersection of finitely many open sets is open.](../Open%20Sets/Open%20Subset.md#^Intersection-of-open-sets)]. Therefore, $U_1 \cap \cdots \cap U_n \in \tau_S$.
 >>
 >
 >>[!DEFINITION] Definition: Topological Subspace
