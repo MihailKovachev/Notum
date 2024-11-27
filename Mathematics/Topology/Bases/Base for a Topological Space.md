@@ -9,7 +9,7 @@
 >>This representation is not necessarily unique.
 >>
 >
->>[!THEOREM] Theorem: Base Criterion
+>>[!THEOREM]- Theorem: Equivalent Definition
 >>
 >>Let $(X, \tau)$ be a [topological space](../Topological%20Space.md).
 >>

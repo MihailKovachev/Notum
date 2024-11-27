@@ -14,7 +14,7 @@
 >>
 >>We will just show this for the case when $\gamma$ and $\varphi$ are *not* piecewise, since the proof is easily generalisable - if $\gamma$ and $\varphi$ *are* piecewise, then one can just apply the following proof to each of their partitions and obtain the same end result after summing the results from each partition.
 >>
->>Since $\gamma$ and $\varphi$ parameterise the same curve $\mathcal{C}$, we can [reparameterise](../../../../Geometry/Euclidean%20Geometry/Curves/Curve.md) one in the other. More specifically, there exists a [bijective](../../../Functions/Injection,%20Surjection,%20Bijection.md), [continuously differentiable function](../../../Real%20Analysis/Differentiation/Differentiability%20of%20Real%20Functions.md) $u: [a;b] \to [c;d]$ such that
+>>Since $\gamma$ and $\varphi$ parameterise the same curve $\mathcal{C}$, we can [reparameterise](../../../../Geometry/Euclidean%20Geometry/Curves/Curve.md) one in the other. More specifically, there exists a [bijective](../../../Functions/Types%20of%20Functions/Injection,%20Surjection,%20Bijection.md), [continuously differentiable function](../../../Real%20Analysis/Differentiation/Differentiability%20of%20Real%20Functions.md) $u: [a;b] \to [c;d]$ such that
 >>
 >>$$\varphi(u(t)) = \gamma (t)$$
 >>

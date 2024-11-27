@@ -43,7 +43,7 @@
 
 >[!THEOREM] Theorem: Involution of Transposition
 >
->The [matrix transposition](Matrix%20Transposition.md) is an [involution](../../../../Analysis/Functions/Involution.md).
+>The [matrix transposition](Matrix%20Transposition.md) is an [involution](../../../../Analysis/Functions/Types%20of%20Functions/Involution.md).
 >
 >>[!PROOF]-
 >>

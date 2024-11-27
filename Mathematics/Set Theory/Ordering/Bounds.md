@@ -26,6 +26,7 @@
 >
 
 >[!DEFINITION] Definition: Lower Bound
+>
 >Let $T$ be a [subset](../../Subset.md) of a [partially ordered](Partial%20Order.md) [set](../../Set.md) $S$.
 >
 >An element $l \in S$ is called a **lower bound** of $T$ if
@@ -39,8 +40,13 @@
 >>$$\inf (T) \le \forall l \qquad l \in L$$
 >>
 >>>[!THEOREM] Theorem: Uniqueness of the Infimum
+>>>
 >>>There is only one infimum of $T$.
+>>>
 >>>>[!PROOF]-
+>>>>
+>>>>TODO
+>>>>
 
 >[!DEFINITION] Definition: Bounded Sets
 >

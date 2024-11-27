@@ -1,8 +1,8 @@
 >[!DEFINITION] Definition: Homeomorphic Spaces
 >
->Two [topological spaces](../Topological%20Space.md) $(X, \tau_X)$ and $(Y, \tau_Y)$ are **homeomorphic** if there exists a [homeomorphism](Homeomorphism.md) between them.
+>Two [topological spaces](../../Topological%20Space.md) $(X, \tau_X)$ and $(Y, \tau_Y)$ are **homeomorphic** if there exists a [homeomorphism](Homeomorphism.md) between them.
 >
->>[!NOTATION]
+>>[!NOTATION]-
 >>
 >>$$(X, \tau_X) \cong (Y, \tau_Y)$$
 >>
@@ -13,7 +13,7 @@
 >>
 >>>[!PROOF]-
 >>>
->>>1. Proof of reflexivity
+>>>TODO
 >>>
 >>>
 >>

@@ -13,5 +13,42 @@
 >
 >A [function](../../../Analysis/Functions/Function.md) $f: X \to Y$ is **continuous on** $X$ or simply **continuous** iff it is [continuous](Continuity.md#^continuity-at-a-point) at each $x \in X$.
 >
+>>[!THEOREM]- Theorem: Equivalent Definition - Continuity via Openness
+>>
+>>Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be [topological spaces](../Topological%20Space.md).
+>>
+>>A [function](../../../Analysis/Functions/Function.md) $f: X \to Y$ is [continuous](Continuity.md#^continuity) if and only if the [inverse image](../../../Analysis/Functions/Inverse%20Image.md) of each [open subset](../Topologies/Open%20Subset.md) of $Y$ is an open subset of $X$.
+>>
+>>>[!PROOF]-
+>>>
+>>>TODO
+>>>
+>>
+>
+>
+>>[!THEOREM]- Theorem: Equivalent Definition  - Continuity via Closedness
+>>
+>>Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be [topological spaces](../Topological%20Space.md).
+>>
+>>A [function](../../../Analysis/Functions/Function.md) $f: X \to Y$ is [continuous](Continuity.md#^continuity) if and only if the [inverse image](../../../Analysis/Functions/Inverse%20Image.md) of each [closed subset](../Topologies/Closed%20Subset.md) of $Y$ is a [closed subset](../Topologies/Closed%20Subset.md) of $X$.
+>>
+>>>[!PROOF]-
+>>>
+>>>TODO
+>>>
+>>
+>
+>>[!THEOREM]- Theorem: Local Criterion
+>>
+>>Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be [topological spaces](../Topological%20Space.md).
+>>
+>>A [function](../../../Analysis/Functions/Function.md) $f: X \to Y$ is [continuous](Continuity.md#^continuity) if and only if each point $x \in X$ has a [neighbourhood](../Neighbourhoods.md) $N$ such that the [restriction](../../Analysis/Functions/Restriction.md) $f\big|_N$ is [continuous](Continuity.md#^continuity).
+>>
+>>>[!PROOF]-
+>>>
+>>>TODO
+>>>
+>>
+>
 >^continuity
 >

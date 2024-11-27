@@ -1,6 +1,6 @@
 >[!DEFINITION] Definition: Euclidean Space
 >
->The [vector space](../../Algebra/Linear%20Algebra/Matrices/Row%20&%20Column%20Vectors/Real%20Vectors/Structure%20of%20the%20Real%20Vector%20Space.md) $\mathbb{R}^n$ is also referred to as an $n$-dimensional **Euclidean space**.
+>The [vector space](../../Algebra/Linear%20Algebra/Matrices/Row%20&%20Column%20Vectors/Real%20Vectors/Structure%20of%20the%20Real%20Vector%20Space.md) $\mathbb{R}^n$ equipped with its [Euclidean topology](Euclidean%20Topology/Euclidean%20Topology.md) is known as the $n$-dimensional **Euclidean space**.
 >
 >>[!NOTE]
 >>

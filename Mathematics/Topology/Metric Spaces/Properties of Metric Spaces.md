@@ -4,8 +4,10 @@
 >
 >>[!PROOF]-
 >>
+>>TODO
 >>
->>
+>
+>^metric-spaces-are-hausdorff-spaces
 >
 
 >[!THEOREM] Theorem: First-Countability of Metric Spaces
@@ -16,4 +18,6 @@
 >>
 >>TODO
 >>
+>
+>^metric-spaces-are-first-countable
 >
